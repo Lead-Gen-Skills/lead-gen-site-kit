@@ -1,0 +1,14 @@
+{
+  "name": "lead-gen-course",
+  "description": "The lead generation website kit from the Lead Gen course: build, launch and grow fast, trustworthy lead-gen sites the proven way.",
+  "owner": {
+    "name": "Chris Dinham"
+  },
+  "plugins": [
+    {
+      "name": "lead-gen-site-kit",
+      "source": "./plugins/lead-gen-site-kit",
+      "description": "Build, optimise and audit lead-generation websites: site architecture, conversion, images, schema, AI search, local SEO and a launch scorecard."
+    }
+  ]
+}

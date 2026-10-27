@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "lead-gen-site-kit",
+  "version": "0.2.0",
+  "description": "Build, optimise and audit lead-generation websites the proven way: fast static sites, one clear call to action, local SEO, schema, AI search and a launch scorecard.",
+  "author": {
+    "name": "Chris Dinham"
+  },
+  "keywords": ["lead generation", "local seo", "website", "nextjs", "schema", "ai search"],
+  "skills": "./skills/"
+}

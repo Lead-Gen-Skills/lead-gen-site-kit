@@ -1,0 +1,20 @@
+{
+  "name": "lead-gen-course",
+  "interface": {
+    "displayName": "Lead Gen Course"
+  },
+  "plugins": [
+    {
+      "name": "lead-gen-site-kit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/lead-gen-site-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

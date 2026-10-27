@@ -1,0 +1,8 @@
+{
+  "name": "lead-gen-site-kit",
+  "description": "Build, optimise and audit lead-generation websites the proven way: fast static sites, one clear call to action, local SEO, schema, AI search and a launch scorecard.",
+  "author": {
+    "name": "Chris Dinham"
+  },
+  "keywords": ["lead generation", "local seo", "website", "nextjs", "schema", "ai search"]
+}

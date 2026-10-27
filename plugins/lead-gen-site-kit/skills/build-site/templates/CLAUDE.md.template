@@ -1,0 +1,57 @@
+# CLAUDE.md
+
+The always-read guide for this project. Keep it short and high signal. Detail lives in `/docs`.
+
+Other coding agents (Codex, Cursor and so on) should read this file too; `AGENTS.md` points here.
+
+## What this is
+
+A [single or multi-location] lead-generation website for **[Brand]**, a [country] [service] business. The site exists to rank in search, look trustworthy, and send visitors to request a quote. Quote clicks go to the on-site quote form at `/get-a-free-quote/`, which saves each lead and forwards it to [the CRM, e.g. GoHighLevel]. Launch locations: [list].
+
+Priorities, in order: **page speed, trust and conversion, then SEO and AI search.**
+
+## Stack
+
+- Next.js (App Router) + TypeScript, Tailwind CSS (tokens in `tailwind.config.ts`, mirrored in `src/app/globals.css`)
+- Fully static export (`output: 'export'`), deployed to Cloudflare static assets via `wrangler.jsonc` (output `out/`). No Next server runtime, no Next API routes, no ISR. The only server code is `worker/` on `/api/*` (the quote form endpoint), which saves leads to a D1 database and forwards them to the CRM.
+- All content lives in `src/data/locations.ts`, including the form questions and the prices the form shows.
+- Fonts via `next/font`. GA4 in the layout, production only (`NEXT_PUBLIC_GA_ID`).
+
+## Non-negotiable rules
+
+1. **[If a lead network:] Lead network, not the provider.** Every footer carries `SITE.disclosure`. Copy and schema describe arranging providers.
+2. **The CTA is always the exact words "[CTA text]"** and links to the on-site quote form via `buildQuoteUrl()`. The form (`QuoteForm`) is the only thing on site that collects data. The button colour `[hex]` is reserved for the CTA and the form's own Next and submit buttons.
+3. **Location URLs are flat:** `/[keyword]-[location]/`, one dynamic route `app/[locationSlug]/`. Use `locationPath()`, never hardcode. Old URLs 301 via `public/_redirects`. Trailing slashes on.
+4. **Add a location = add one entry** in `src/data/locations.ts`. Never hand-build a location page. Only publish a location with genuinely unique content.
+5. **Never invent proof.** No made-up ratings, review counts, dates, customer numbers, guarantees or local detail. Placeholders are marked `TODO` and listed in `docs/launch-checklist.md`.
+6. **Optimise every image** with `scripts/optimize-image.mjs` (WebP, resized, keyword filename, curated EXIF, geotag). Keyword-rich `alt`, real `<img>` with width and height.
+7. **Language is `[locale]`.** [Spelling and idiom notes.]
+8. **[House style:] No em dashes or en dashes** anywhere. Commas, periods, or "to" for ranges. Sentence case, no emoji.
+
+## Commands
+
+```bash
+npm run dev      # local dev server
+npm run build    # production build (validates static export and OG images)
+npx tsc --noEmit # type-check, safe while dev runs
+```
+
+Do not run `npm run build` while `npm run dev` is running; they share `.next`.
+
+## Where things live
+
+- `src/data/locations.ts`: all content, `SITE` config, the `Location` type, helpers.
+- `src/lib/quote.ts`: `buildQuoteUrl()`.
+- `src/lib/schema.ts`: all JSON-LD builders.
+- `src/components/`: page sections.
+- `src/app/`: routes, metadata, sitemap, robots, llms.txt, OG images.
+- `scripts/optimize-image.mjs`: the image pipeline.
+- `public/_redirects`, `public/_headers`, `wrangler.jsonc`, `.env.example`.
+
+## Docs
+
+- `docs/architecture.md`, `docs/seo-strategy.md`, `docs/seo-implemented.md`, `docs/keyword-map.md`, `docs/content-style-guide.md`, `docs/image-standards.md`, `docs/deployment.md`, `docs/launch-checklist.md`, `docs/changelog.md`
+
+## Maintenance rule
+
+At the end of each chunk of work, update `docs/seo-implemented.md` and add a dated entry to `docs/changelog.md`. Ask before pushing or deploying to production.
