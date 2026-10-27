@@ -41,6 +41,7 @@ The thank-you screen repeats the size and price ("your fixed quote for the 3 bed
 - **Tap targets 48px or taller.** WCAG 2.2 AA asks for 24px minimum, 44px is the AAA and Apple standard, Android uses 48dp. [W3C](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html).
 - **The right attributes on every input:** `autocomplete="name"`, `"tel"`, `"email"`, `type="tel"` with `inputmode="tel"`, `type="email"`. Browsers then fill the field in one tap. *Strong*: [web.dev autofill](https://web.dev/learn/forms/autofill).
 - **Address autocomplete with a typed fallback.** Address lookup is the most effective way to cut address effort, and 9% of typed addresses contain typos. *Strong*: [Baymard](https://baymard.com/blog/automatic-address-lookup). Load the Maps script only when the address screen opens, so no other page pays for it.
+- **Use a tap calendar for dates, and show the notice rule on it.** If providers need a minimum notice period, grey out the days inside it but keep them tappable: a tap explains the rule and names the earliest bookable day, instead of silently doing nothing. Start the week on Monday for Australian visitors, open on the month of the first bookable day, and offer a "Not sure of the date yet" way through so undecided visitors are not lost.
 - **Validate when they try to move on,** not on every keystroke, and say plainly what to fix ("That number doesn't look right, mobile or landline.").
 - **Visible labels,** not placeholder-only, and the button stays reachable above the keyboard.
 
