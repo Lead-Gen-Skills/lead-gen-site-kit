@@ -53,6 +53,28 @@ Fire `form_start`, `form_step`, `price_reveal` and `generate_lead` (on confirmed
 
 Walk the whole form on a real phone: every tap, the phone's back button, a bad phone number, a slow network. Submit one real lead and check it reached the database and the CRM with readable answers. Then run the launch checks at the end of `references/implementation.md`.
 
+## The form in WordPress
+
+When the user's site is WordPress (or any page builder) there is no place for our own server code, so do not write the coded form from `references/implementation.md`. Design the form and hand over a specification the user builds with the form tool they already use. Do not recommend a form plugin by name.
+
+Write `form-spec.md` in the project folder with:
+
+- Each screen in order: the question, the answer type, the options, whether it is required, and the plain-English error message.
+- The consent line for lead networks, saying who will contact the visitor.
+- The thank-you screen wording, with the phone number as a tap-to-call fallback.
+- The spam checks to switch on in their form tool: a hidden field and a minimum time before submitting. No CAPTCHA unless spam proves it is needed.
+- The field names to send, in readable words (`name`, `phone`, `email`, `suburb`, `job_details`), plus a unique id for each submission.
+
+Then tell the user the three ways an enquiry can reach their lead software, and to pick exactly one per site, because the same enquiry sent two ways is counted twice:
+
+1. **Their CRM's own form**, embedded on the quote page. Quickest. Fewer design choices.
+2. **Their own form tool, sending a webhook from the server** to the address their lead software gives them. This needs a form tool that supports multi-step forms and server-side webhooks.
+3. Never **a script in the page that posts straight to the webhook address**. The address is then visible to anyone who views the page, and it will be found and spammed.
+
+After set up, have them send one test enquiry and confirm the lead software's reply says it was stored, not merely that the request succeeded.
+
+All the rules below still apply to the design: one question per screen, easy questions first, phone last with a reason, big tap targets.
+
 ## Non-negotiable rules
 
 1. **One question per screen, tap to advance.** Choice questions advance on tap. Never auto-advance after typing. A back arrow on every screen after the first, and the phone's back button steps back one question instead of leaving the page.

@@ -3,12 +3,14 @@ name: build-site
 description: >
   This skill should be used when the user wants to "build a lead gen website",
   "start a new lead generation site", "build a site like the course example", "set up a
-  multi-location service website", "plan the pages for my lead gen site", or add
-  a new city, suburb or service area to an existing lead-gen site. It covers the
+  multi-location service website", "plan the pages for my lead gen site", "write
+  the brief for my site", "write the copy for my WordPress site", "page plan for
+  my lead gen site", or add a new city, suburb or service area to an existing
+  lead-gen site. It covers the
   brief, the stack, the data model, URL structure, conversion layout, copy,
   metadata, schema, AI search files, measurement and the launch checklist.
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -21,6 +23,15 @@ Build service-business lead-gen sites to the standard proven on a production mul
 3. **Rank.** In classic search, in the Google map pack, and in AI answer engines (ChatGPT, Perplexity, Google AI Overviews).
 
 SEO work must never slow the page or weaken the conversion path. When the two conflict, speed and conversion win.
+
+## First, which mode
+
+Ask once, before anything else: **are you building the site yourself in WordPress (or another page builder), or do you want me to build it as code?**
+
+- **WordPress mode:** read `references/09-wordpress-mode.md` and follow it. You produce the brief, the page plan and the copy as documents; the user builds the pages. Skip phase 2 below.
+- **Coded build:** follow the phases below.
+
+If the user has already said which (for example "my site is built in WordPress"), do not ask again.
 
 ## How to run a build
 
@@ -89,4 +100,5 @@ Enforce these on every page and every commit. Restate them in the project's `CLA
 | `references/06-ai-search.md` | llms.txt, citable pages, AI referral tracking |
 | `references/07-measurement.md` | GA4 events, cross-domain tracking, Search Console |
 | `references/08-launch-checklist.md` | Before go-live, and as a progress tracker |
+| `references/09-wordpress-mode.md` | The user builds in WordPress and wants the brief, page plan and copy |
 | `templates/CLAUDE.md.template` | Creating the project's always-read rules file |
