@@ -3,14 +3,14 @@ name: optimize-images
 description: >
   This skill should be used when the user wants to "add an image to the site",
   "optimise images", "compress photos for the website", "convert to WebP",
-  "write alt text", "name image files for SEO", "generate
+  "geotag images", "write alt text", "name image files for SEO", "generate
   images for the website", "make a team photo", "AI photos for the site", or is
   adding any photo, before and after shot, logo or graphic to a lead-gen
   website. It runs the image SEO pipeline (resize, WebP, strip metadata, curated
-  EXIF, keyword filename and alt text) and sets the style for generated
+  EXIF, geotag, keyword filename and alt text) and sets the style for generated
   placeholder photos.
 metadata:
-  version: "0.3.0"
+  version: "0.2.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -29,7 +29,8 @@ node scripts/optimize-image.mjs \
   --in "/path/to/source.jpg" \
   --out "public/images/[service-keyword]-job-before.webp" \
   --desc "[What the photo shows] before the [service]" \
-  --brand "Your Brand"
+  --brand "Your Brand" \
+  --lat -25.2744 --lng 133.7751
 ```
 
 | Flag | Required | Default | Notes |
@@ -40,10 +41,11 @@ node scripts/optimize-image.mjs \
 | `--brand` | no | `BRAND` in the script | Written to EXIF `Artist` and `Copyright` |
 | `--width` | no | `1000` | Max width in px, never upscales. About 900 to 1000 covers a retina card |
 | `--quality` | no | `80` | WebP quality |
+| `--lat` / `--lng` | no | none | Geotag. Omit to skip GPS. Use the city for location images, the country centre for national ones |
 
-The script prints before and after size and confirms the EXIF was written.
+The script prints before and after size and confirms EXIF and geotag were written.
 
-Do not geotag images. Writing GPS coordinates into a photo does nothing for rankings (search engines and business profiles strip or ignore them), and coordinates for a place the photo was not taken are false data. The script has no location option.
+Country centre coordinates for national images: Australia `-25.2744, 133.7751`; New Zealand `-41.2865, 174.7762` (Wellington); United Kingdom `54.0, -2.0`; United States `39.8283, -98.5795`; Canada `56.1304, -106.3468`.
 
 ## The standard, point by point
 
@@ -51,13 +53,14 @@ Do not geotag images. Writing GPS coordinates into a photo does nothing for rank
 2. **WebP, resized, compressed.**
 3. **Original metadata stripped.** Camera, phone and location data from the original are removed (privacy and bytes).
 4. **Curated EXIF.** Keyword-rich description, brand as artist and copyright.
-5. **Keyword-rich, accurate alt text** set by hand on the `<img>`. Describe what is actually in the image, naturally including the target term. National term for home page images.
-6. **A real `<img>`, never a CSS background**, with intrinsic `width` and `height` so there is no layout shift. Above the fold: `loading="eager"` and `fetchPriority="high"`. Everything else lazy-loads.
+5. **Geotagged** where it is genuinely true: the city the photo was taken in, or the country centre for brand images. Never geotag a photo to a city it was not taken in.
+6. **Keyword-rich, accurate alt text** set by hand on the `<img>`. Describe what is actually in the image, naturally including the target term. National term for home page images.
+7. **A real `<img>`, never a CSS background**, with intrinsic `width` and `height` so there is no layout shift. Above the fold: `loading="eager"` and `fetchPriority="high"`. Everything else lazy-loads.
 
 ## Workflow when the user adds images
 
 1. Ask what each image shows and which page it is for (national or a specific location).
-2. Propose the filename, description and alt text. Confirm.
+2. Propose the filename, description and alt text, and the geotag (if any). Confirm.
 3. Run the script for each image. Report the size savings.
 4. Wire the image into the component with the alt text, width and height from the output.
 5. Leave raw source images out of the repository. Only the optimised WebPs belong in `public/images/`.

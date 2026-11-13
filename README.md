@@ -11,7 +11,7 @@ Install it once. When we improve the kit, your assistant picks up the changes au
 | `choose-niche` | Score industries, check demand, build the keyword map and set a lead price | "Help me pick an industry for a lead gen site in [location]" |
 | `build-site` | Plan and build a new lead-gen site from a brief, write the brief, page plan and copy for a site you build in WordPress, or add a location | "Write the brief and copy for my WordPress lead gen site" |
 | `lead-form` | Build or fix the quote form: one question per screen, a starting price reveal, spam checks, saving and forwarding leads | "Replace my GoHighLevel form with our own quote form" |
-| `optimize-images` | Prepare every photo: WebP, resize, keyword filename, alt text | "Add these before and after photos to the home page" |
+| `optimize-images` | Prepare every photo: WebP, resize, keyword filename, alt text, geotag | "Add these before and after photos to the home page" |
 | `local-seo` | Google Business Profile, reviews, citations, links and the month by month routine after launch | "My site is live, what do I do for local SEO now?" |
 | `audit-site` | Score any site against the course scorecard and get the next five fixes, review a page as a customer, check every claim has a source | "Audit my site and tell me what to fix next" |
 | `google-ads` | Work out whether ads will pay, build one search campaign, review it weekly | "Build a Google Ads campaign for my site" |

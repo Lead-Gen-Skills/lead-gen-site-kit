@@ -11,7 +11,8 @@
 //        - ImageDescription: keyword-rich, doubles as the record
 //          of the intended alt text.
 //        - Artist + Copyright: the brand.
-//      No GPS data is written: it does nothing for rankings.
+//        - GPS (optional): where the photo was genuinely taken,
+//          or the country centre for brand images.
 //
 // Filenames are the other half of image SEO and are NOT handled
 // here on purpose: pass an already keyword-rich, hyphenated --out
@@ -25,7 +26,10 @@
 //     --in "/path/to/source.jpg" \
 //     --out "public/images/[service-keyword]-job-before.webp" \
 //     --desc "[What the photo shows] before the [service]" \
-//     [--brand "Your Brand"] [--width 1000] [--quality 80]
+//     [--brand "Your Brand"] [--width 1000] [--quality 80] \
+//     [--lat -25.2744 --lng 133.7751] [--datum WGS-84]
+//
+// Omit --lat/--lng to skip the geotag.
 // ============================================================
 import sharp from "sharp";
 import { mkdir } from "node:fs/promises";
@@ -54,6 +58,20 @@ if (brand === "Your Brand") {
 }
 const width = Number(args.width ?? 1000);
 const quality = Number(args.quality ?? 80);
+const hasGeo = args.lat !== undefined && args.lng !== undefined;
+const lat = hasGeo ? Number(args.lat) : null;
+const lng = hasGeo ? Number(args.lng) : null;
+const datum = args.datum ?? "WGS-84";
+
+// ---- decimal degrees -> EXIF rational DMS string ("deg/1 min/1 sec/100") ----
+function toDMSRational(dec) {
+  const abs = Math.abs(dec);
+  const d = Math.floor(abs);
+  const minFloat = (abs - d) * 60;
+  const m = Math.floor(minFloat);
+  const secHundredths = Math.round((minFloat - m) * 60 * 100);
+  return `${d}/1 ${m}/1 ${secHundredths}/100`;
+}
 
 const exif = {
   IFD0: {
@@ -63,6 +81,17 @@ const exif = {
     Software: `${brand} image pipeline (sharp)`,
   },
 };
+if (hasGeo) {
+  exif.IFD3 = {
+    GPSVersionID: "2 2 0 0",
+    GPSLatitudeRef: lat < 0 ? "S" : "N",
+    GPSLatitude: toDMSRational(lat),
+    GPSLongitudeRef: lng < 0 ? "W" : "E",
+    GPSLongitude: toDMSRational(lng),
+    GPSMapDatum: datum,
+  };
+}
+
 const absOut = resolve(outPath);
 await mkdir(dirname(absOut), { recursive: true });
 
@@ -83,4 +112,4 @@ console.log(`OK  ${outPath}`);
 console.log(`    ${meta.width}x${meta.height} ${meta.format}  ${kb(inSize)} -> ${kb(outSize)} (${Math.round((1 - outSize / inSize) * 100)}% smaller)`);
 console.log(`    use: width={${meta.width}} height={${meta.height}}`);
 console.log(`    desc: ${desc}`);
-console.log(`    exif: ${meta.exif ? "embedded" : "MISSING"}`);
+console.log(`    geo:  ${hasGeo ? `${lat}, ${lng} (${datum})` : "none"}   exif: ${meta.exif ? "embedded" : "MISSING"}`);

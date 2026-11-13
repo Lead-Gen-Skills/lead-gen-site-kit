@@ -54,7 +54,7 @@ Never use a bought profile, an invented unit number or a pre-recorded upload pas
 
 - [ ] Square logo and landscape cover.
 - [ ] Before and after job photos (aim for 10 or more to start), team and vehicle photos.
-- [ ] Prepare each with the `optimize-images` skill: keyword filename, sensible size. Do not geotag: profiles strip the data and it has no ranking effect.
+- [ ] Prepare each with the `optimize-images` skill: keyword filename, honest geotag.
 - [ ] Add a few new photos every week.
 
 ## Phase 3: reviews
