@@ -2,6 +2,10 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.3.1, 13 November 2026
+
+- `choose-niche`: step 1 now uses the same five checks as the course lesson and the industries list: industry type, search volume, cost per click, job value and competition. Three are scored 1 to 5 for a total out of 15. Search volume and cost per click are real numbers for one city, so the skill uses pasted Keyword Planner data or marks its own figures as estimates to be checked.
+
 ## 0.3.0, 13 November 2026
 
 Changes to match the rebuilt course.

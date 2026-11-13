@@ -6,10 +6,10 @@ description: >
   I build a site for", "do keyword research for my lead gen site", "build a
   keyword map", "what is a lead worth", "set my lead price", "choose a city", or
   is deciding what a new lead-generation site should be about and where. It
-  covers scoring industries, checking demand with free tools, the keyword map
-  and the lead price sum.
+  covers the five industry checks, checking demand with free tools, the keyword
+  map and the lead price sum.
 metadata:
-  version: "0.3.0"
+  version: "0.3.1"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -19,20 +19,23 @@ The industry decision matters more than anything built afterwards. A good indust
 
 You are a research assistant here, not the decision maker. You do not know current local click costs or who ranks in the user's city. Say so, give reasons with every score, and have the user check the numbers that matter.
 
-## Step 1: score a long list
+## Step 1: run the five checks on a shortlist
 
-Ask for the country and the industries the user is considering, then add as many again that fit. Score each from 1 to 5, with a one-line reason and a note wherever you are unsure:
+Ask for the country, the city if it is chosen, and the industries the user is considering (the course has them shortlist about ten from a master list). Offer to add others that fit. Check each industry on the same five things the course teaches, in this order, so your table matches the user's own sheet:
 
-| Criterion | What scores well |
-|---|---|
-| Job value | A typical job of roughly $1,000 to $5,000: enough that a business pays well for a lead, small enough that the customer decides quickly |
-| Demand shape | Steady and repeatable, needed by many households or businesses every year |
-| Decision speed | Urgent or quick decisions. Long, considered projects (custom builds, large renovations) score low |
-| Service area | Businesses that travel across a city or region |
-| Regulation | Light advertising rules. Health and other regulated services score low: stricter rules and small catchments |
-| Buys marketing | Businesses in the trade already pay for ads or leads |
+| Check | What to give | What scores well |
+|---|---|---|
+| Industry type | Score 1 to 5 | A trade or home service with steady, repeatable demand, quick decisions and businesses that travel across a city or region. Health and other regulated services score low (stricter advertising rules, small catchments). So do long, considered projects such as custom builds and large renovations |
+| Search volume | Monthly searches for the main search in the user's city | Enough people searching every month to produce a steady flow of enquiries |
+| Cost per click | Dollars per click for the main search | Low enough that the clicks needed for one enquiry cost less than the lead can sell for |
+| Job value | Score 1 to 5 | A typical job of roughly $1,000 to $5,000: enough that a business pays well for a lead, small enough that the customer decides quickly |
+| Competition | Score 1 to 5 | Small local businesses and other lead sites on page one. National brands with large sites score low |
 
-Trades generally score well: they want the phone to ring and do not micro-manage where a lead came from.
+Add the three scores for a total out of 15. Give a one-line reason for every score and a note wherever you are unsure.
+
+Search volume and cost per click are real numbers for one city. Use the user's Keyword Planner data when they paste it. Without it, give your best estimate, mark both columns "estimate" in the table, and say they must be checked in step 2 before anything is decided. Competition is also a guess until the user has looked at the results page.
+
+Trades generally do well: they want the phone to ring and do not micro-manage where a lead came from. Businesses in a trade that already pay for ads or leads are a good sign.
 
 Rank the list and have the user pick five to check by hand.
 
