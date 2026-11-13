@@ -2,6 +2,10 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.3.3, 13 November 2026
+
+- `choose-niche`: after pricing the top five, the skill tells the user to type four figures into each industry's row of their industries list (job value, gross margin, close rate, cost per click), since the list now works the price out itself and a pasted table will not line up.
+
 ## 0.3.2, 13 November 2026
 
 - `choose-niche`: the lead price sum now matches the course's lead calculator. The price per lead is what the buyer can spend to win a customer (job value x a spend share of about a fifth of gross profit, kept between 5% and 15% of the job) x their close rate (25% to stay safe). The earlier sum (job value x margin x close rate, priced at up to half) gave a higher figure and is gone. The ads check uses 10% of clicks becoming leads.

@@ -9,7 +9,7 @@ description: >
   covers the five industry checks, checking demand with free tools, the keyword
   map and the lead price sum.
 metadata:
-  version: "0.3.2"
+  version: "0.3.3"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -37,7 +37,7 @@ Search volume and cost per click are real numbers for one city. Use the user's K
 
 Trades generally do well: they want the phone to ring and do not micro-manage where a lead came from. Businesses in a trade that already pay for ads or leads are a good sign.
 
-Rank the list. For the top five, run the lead price sum in step 3 and add its columns to the same table (job value, margin, spend share, spend to win a customer, close rate, price per lead, cost per click, ad cost per lead, ads pay yes or no), so the user can paste one table back into their sheet. Then have the user pick the ones to check by hand.
+Rank the list. For the top five, run the lead price sum in step 3 and add its columns to the same table (job value, margin, spend share, spend to win a customer, close rate, price per lead, cost per click, ad cost per lead, ads pay yes or no), in one table. The course's industries list works the price out itself once the user types four figures into an industry's row (average job value, gross margin, close rate, cost per click), so tell them to enter those for each of the five; a pasted table will not line up with a long alphabetical list. Then have the user pick the ones to check by hand.
 
 ## Step 2: check demand with free tools
 
