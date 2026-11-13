@@ -6,7 +6,7 @@ Skills:
 
 - `build-site`: from brief to launch for a fast, static, multi-location lead-gen site.
 - `lead-form`: a fast, one question per screen quote form with a starting price reveal, spam checks, and a backend that saves and forwards every lead.
-- `optimize-images`: the image SEO pipeline (WebP, resize, curated EXIF, geotag, filenames, alt text).
+- `optimize-images`: the image SEO pipeline (WebP, resize, curated EXIF, filenames, alt text).
 - `local-seo`: Google Business Profile, reviews, citations and links after launch.
 - `audit-site`: score a site against the course scorecard and get a prioritised fix list.
 

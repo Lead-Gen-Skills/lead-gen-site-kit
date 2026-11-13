@@ -24,7 +24,7 @@ Priorities, in order: **page speed, trust and conversion, then SEO and AI search
 3. **Location URLs are flat:** `/[keyword]-[location]/`, one dynamic route `app/[locationSlug]/`. Use `locationPath()`, never hardcode. Old URLs 301 via `public/_redirects`. Trailing slashes on.
 4. **Add a location = add one entry** in `src/data/locations.ts`. Never hand-build a location page. Only publish a location with genuinely unique content.
 5. **Never invent proof.** No made-up ratings, review counts, dates, customer numbers, guarantees or local detail. Placeholders are marked `TODO` and listed in `docs/launch-checklist.md`.
-6. **Optimise every image** with `scripts/optimize-image.mjs` (WebP, resized, keyword filename, curated EXIF, geotag). Keyword-rich `alt`, real `<img>` with width and height.
+6. **Optimise every image** with `scripts/optimize-image.mjs` (WebP, resized, keyword filename, curated EXIF, no geotag). Keyword-rich `alt`, real `<img>` with width and height.
 7. **Language is `[locale]`.** [Spelling and idiom notes.]
 8. **[House style:] No em dashes or en dashes** anywhere. Commas, periods, or "to" for ranges. Sentence case, no emoji.
 

@@ -2,6 +2,12 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.3.0, 13 November 2026
+
+Changes to match the rebuilt course.
+
+- `optimize-images`: geotagging is removed. Writing GPS coordinates into a photo has no ranking effect, so the script no longer has `--lat` and `--lng`, and the skill, the image generation notes, the Google Business Profile checklist and the project template no longer mention it.
+
 ## 0.2.0, 27 October 2026
 
 Lessons from a recent two-region build.

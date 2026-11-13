@@ -61,5 +61,5 @@ The "Jobs we do around [location]" cards need one photo per job type, ideally on
 - Generate at 4:3 (the Polaroid frame and the card both crop to about 4:3) and keep the subject centred.
 - Batch the set. Image services rate limit parallel jobs (on the image generation service used for a previous build, about eight at once), so send waves of eight and wait for each to finish.
 - Review every image before it goes near the site. Put a wave on one contact sheet (a 4 by 2 grid of thumbnails with their numbers) and check each for: stray letters or logos, anything unpleasant, warped hands or faces, the wrong country's vehicles or buildings, and whether the scene actually belongs to its page. Regenerate anything that fails rather than settling.
-- Run the keepers through the pipeline (`scripts/optimize-image.mjs`): about 1000px wide for heroes and crew photos, 800 to 900px for cards. Geotag a generated scene to the town it depicts only when it is used on that town's page; otherwise use the country centre.
-- Record each image's prompt, filename, alt text and geotag in `docs/image-prompts.md`, and delete generated files the site no longer uses so they do not bloat the build.
+- Run the keepers through the pipeline (`scripts/optimize-image.mjs`): about 1000px wide for heroes and crew photos, 800 to 900px for cards.
+- Record each image's prompt, filename and alt text in `docs/image-prompts.md`, and delete generated files the site no longer uses so they do not bloat the build.
