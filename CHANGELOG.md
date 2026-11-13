@@ -2,6 +2,11 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.3.2, 13 November 2026
+
+- `choose-niche`: the lead price sum now matches the course's lead calculator. The price per lead is what the buyer can spend to win a customer (job value x a spend share of about a fifth of gross profit, kept between 5% and 15% of the job) x their close rate (25% to stay safe). The earlier sum (job value x margin x close rate, priced at up to half) gave a higher figure and is gone. The ads check uses 10% of clicks becoming leads.
+- `choose-niche`: step 1 reads an attached industries list and works on the rows marked Yes in its Shortlist column, then prices a lead for the top five in the same table.
+
 ## 0.3.1, 13 November 2026
 
 - `choose-niche`: step 1 now uses the same five checks as the course lesson and the industries list: industry type, search volume, cost per click, job value and competition. Three are scored 1 to 5 for a total out of 15. Search volume and cost per click are real numbers for one city, so the skill uses pasted Keyword Planner data or marks its own figures as estimates to be checked.
