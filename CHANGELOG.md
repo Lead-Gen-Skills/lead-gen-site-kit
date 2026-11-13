@@ -6,6 +6,8 @@ Newest first. Every release that attendees receive gets an entry.
 
 Changes to match the rebuilt course.
 
+- The kit is now public. No GitHub account or invitation is needed to install it, and the install steps are shorter.
+
 - New `choose-niche` skill: scores a list of industries against six criteria with reasons, has the user check demand with free tools and read the results page, runs the one lead price sum (value to the buyer against cost from ads), compares cities, and writes the keyword map the build skill reads.
 - New `google-ads` skill: the cost per lead sum before anything is built, conversions before spend, one search campaign built from the brief with a negative keyword list and ads checked against length limits, the settings that protect a small budget, the weekly search terms review, and a small demand test.
 - `build-site`: new WordPress mode (`references/09-wordpress-mode.md`). When the site is built in WordPress or another page builder, the skill asks which mode first, then produces the brief, a page plan (one main keyword and a flat URL per page) and section by section copy to paste in, with titles, descriptions, alt text and FAQs, and a `to-confirm.md` list of anything unsourced. It does not teach WordPress or recommend plugins.

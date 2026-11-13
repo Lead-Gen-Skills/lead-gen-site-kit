@@ -12,7 +12,7 @@ Skills:
 - `audit-site`: score a site against the course scorecard and get a prioritised fix list, a conversion review and a claims check.
 - `google-ads`: the cost per lead sum, one simple search campaign, and a weekly review.
 
-Install in Claude Code (needs access to this private repository):
+Install in Claude Code:
 
 ```
 /plugin install lead-gen-site-kit --marketplace Lead-Gen-Skills/lead-gen-site-kit

@@ -20,24 +20,6 @@ Your assistant uses the right skill on its own when your request matches. In Cla
 
 ## Install
 
-### Before you start: access
-
-This kit lives in a private GitHub repository for course members.
-
-1. Create a free GitHub account if you do not have one, and send us your GitHub username.
-2. Accept the invitation email from GitHub (or open https://github.com/orgs/Lead-Gen-Skills/invitation while signed in). This adds you to the read-only students team.
-3. Let your computer sign in to GitHub without asking each time. Install the GitHub CLI (https://cli.github.com), then run these two commands once in your terminal:
-
-```bash
-gh auth login
-```
-
-```bash
-gh auth setup-git
-```
-
-Step 3 matters for automatic updates: they run in the background and cannot stop to ask for a password, so without a saved sign-in they quietly fail and you stay on the old version.
-
 ### Claude Code (terminal, or the Code tab in the Claude desktop app)
 
 Run these inside a Claude Code session:
@@ -51,12 +33,12 @@ Run these inside a Claude Code session:
 
 To update by hand at any time: `/plugin marketplace update lead-gen-course`.
 
-If the add command fails with an SSH error, start Claude Code with `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1` set in your shell. If it says the repository was not found, your invitation has not been accepted yet, or step 3 above was skipped.
+You do not need a GitHub account. If the add command fails with an SSH error, start Claude Code with `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1` set in your shell.
 
 ### Claude app (claude.ai or desktop chat)
 
 - **Team or Enterprise plan:** your admin can sync this repository under **Organization settings > Plugins & skills**, and everyone gets updates.
-- **Individual plan:** download the latest `lead-gen-site-kit.plugin` file from the course and install it in the app, or upload the skill zips under **Settings > Capabilities > Skills**. These copies do not update themselves; grab the new file when we announce an update.
+- **Individual plan:** download the latest `lead-gen-site-kit.plugin` file from the [releases page](https://github.com/Lead-Gen-Skills/lead-gen-site-kit/releases/latest) and install it in the app, or upload the skill zips under **Settings > Capabilities > Skills**. These copies do not update themselves; grab the new file when we announce an update.
 
 ### ChatGPT and Codex
 

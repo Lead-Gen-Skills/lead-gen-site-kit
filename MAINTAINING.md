@@ -23,7 +23,7 @@ CHANGELOG.md                         dated list of what changed, newest first
 3. Bump `version` in `plugins/lead-gen-site-kit/plugin.json` (the OpenAI manifest): patch for wording fixes (0.1.1), minor for new guidance or a new skill (0.2.0).
 4. Run the checks below.
 5. Commit and push to `main`.
-6. Run `scripts/package.sh` and post the new `.plugin` file for attendees on the Claude app individual plan, who do not get automatic updates.
+6. Run `scripts/package.sh` and attach `dist/lead-gen-site-kit.plugin` and the skill zips to a new GitHub release, for people on the Claude app individual plan, who do not get automatic updates.
 
 **Why the Claude manifest has no version:** with `version` omitted, Claude Code treats every new commit as an update, so a push is all it takes. If you ever add a `version` there, you must bump it on every release or nobody receives your changes.
 
@@ -47,25 +47,14 @@ Test locally before pushing: `claude plugin marketplace add ./` from this folder
 - Keep every example generic: never name a real site, business, service type or town. Use placeholders (`[Brand]`, `[service]`, `[location]`) or phrases like "on a previous build". Never include private details either: no phone numbers, funnel URLs, account IDs, analytics numbers that identify the business, or client data.
 - Do not copy text from third-party skills. Write our own wording based on what we learned.
 
-## Giving attendees access
+## The repository is public
 
-The repository is private in the `Lead-Gen-Skills` organisation. Attendees join the `students` team, which has read-only access.
+Anyone can read this repository and install the kit without a GitHub account. That makes two things permanent:
 
-Add someone (sends an email invite to the organisation and the team):
+- **Everything committed here is published, including its history.** Never commit a real business name, town, price, phone number, client detail or key, even to remove it in the next commit. Run the privacy check in the course workspace's `backlog.md` before every commit.
+- **Anything pushed to `main` reaches every install.** Only the owner pushes.
 
-```bash
-gh api -X PUT orgs/Lead-Gen-Skills/teams/students/memberships/THEIR-GITHUB-USERNAME
-```
-
-Or in the browser: Lead-Gen-Skills, Teams, students, Add a member.
-
-Remove someone (they keep their installed copy but get no further updates):
-
-```bash
-gh api -X DELETE orgs/Lead-Gen-Skills/memberships/THEIR-GITHUB-USERNAME
-```
-
-Never give attendees write access or make them organisation owners. Anything pushed to `main` reaches every attendee.
+Nobody else needs write access. Do not add collaborators.
 
 ## Things that break installs
 
