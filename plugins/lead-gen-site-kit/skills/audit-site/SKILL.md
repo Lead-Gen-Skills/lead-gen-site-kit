@@ -7,8 +7,11 @@ description: >
   health check of an existing service-business website (built with this kit or
   not). It scores the site against the Lead Gen course scorecard and produces a
   prioritised fix list.
+  It also runs a conversion review ("review my page as a customer", "why is my
+  page not converting", "tear my page apart") and a claims check ("check my
+  claims", "what have you invented on my site").
 metadata:
-  version: "0.1.0"
+  version: "0.3.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -22,6 +25,7 @@ Work with whatever is available, and say what could not be checked:
 
 - **The codebase** (best): read the data file, layout, components, `public/` and config.
 - **The live URL**: fetch the home page, one location page, `/sitemap.xml`, `/robots.txt`, `/llms.txt`, and view source for metadata and JSON-LD.
+- **The project documents**, for a site built in WordPress: `brief.md`, `page-plan.md` and the `copy/` folder, alongside the live URL.
 - **The owner's answers** for things only they know: real review count, whether the phone is answered, GBP status, GA4 key events, Search Console status.
 
 Never mark an item as passing without evidence. When something cannot be verified, mark it "unknown" and say how to check it.
@@ -33,6 +37,10 @@ Never mark an item as passing without evidence. When something cannot be verifie
 3. Score each section as points earned over points available (unknown and not applicable items are excluded from the total, and listed).
 4. Write the report in the format below.
 5. If the project has a `docs/` folder, save the report as `docs/audit-YYYY-MM-DD.md` so the next audit can compare. If a previous audit exists, show the change per section.
+
+## The conversion review and the claims check
+
+Read `references/conversion-review.md` when the user asks for a page to be reviewed as a customer, asks why a page is not converting, or is about to launch. Before any launch, always run the claims check and put every unsourced claim at the top of the fixes.
 
 ## Priorities
 
