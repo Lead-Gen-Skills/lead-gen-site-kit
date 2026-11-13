@@ -4,7 +4,7 @@ Newest first. Every release that attendees receive gets an entry.
 
 ## 0.3.3, 13 November 2026
 
-- `choose-niche`: after pricing the top five, the skill tells the user to type four figures into each industry's row of their industries list (job value, gross margin, close rate, cost per click), since the list now works the price out itself and a pasted table will not line up.
+- `choose-niche`: step 1 no longer scores industries out of 5. It gives a plain-words verdict on each ticked industry and one table of three figures (average job value, searches a month, cost per click), in the order of the columns in the course's industries list. The list works out the price per lead and whether ads pay, at a 40% gross margin and a 25% close rate, and the skill uses the same two figures when it shows a price.
 
 ## 0.3.2, 13 November 2026
 

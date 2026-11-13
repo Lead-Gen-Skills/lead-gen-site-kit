@@ -6,7 +6,7 @@ description: >
   I build a site for", "do keyword research for my lead gen site", "build a
   keyword map", "what is a lead worth", "set my lead price", "choose a city", or
   is deciding what a new lead-generation site should be about and where. It
-  covers the five industry checks, checking demand with free tools, the keyword
+  covers checking a shortlist of industries, checking demand with free tools, the keyword
   map and the lead price sum.
 metadata:
   version: "0.3.3"
@@ -17,27 +17,31 @@ metadata:
 
 The industry decision matters more than anything built afterwards. A good industry forgives an average site; a bad one cannot be rescued by a great one. Choose on numbers, not on what the user finds interesting.
 
-You are a research assistant here, not the decision maker. You do not know current local click costs or who ranks in the user's city. Say so, give reasons with every score, and have the user check the numbers that matter.
+You are a research assistant here, not the decision maker. You do not know current local click costs or who ranks in the user's city. Say so, give reasons with every verdict, and have the user check the numbers that matter.
 
-## Step 1: run the five checks on a shortlist
+## Step 1: check a shortlist
 
-Ask for the country, the city if it is chosen, and the industries the user is considering. The course has them mark about ten in a master list by choosing Yes in its Shortlist column, then attach the downloaded file: when a list is attached, work only on the rows marked Yes. Offer to add others that fit. Check each industry on the same five things the course teaches, in this order, so your table matches the user's own sheet:
+Ask for the country, the city if it is chosen, and the industries the user is considering. The course has them tick about ten in a master list by choosing Yes in its Shortlist column, then attach the downloaded file: when a list is attached, work only on the rows marked Yes. Offer to add others that fit.
 
-| Check | What to give | What scores well |
-|---|---|---|
-| Industry type | Score 1 to 5 | A trade or home service with steady, repeatable demand, quick decisions and businesses that travel across a city or region. Health and other regulated services score low (stricter advertising rules, small catchments). So do long, considered projects such as custom builds and large renovations |
-| Search volume | Monthly searches for the main search in the user's city | Enough people searching every month to produce a steady flow of enquiries |
-| Cost per click | Dollars per click for the main search | Low enough that the clicks needed for one enquiry cost less than the lead can sell for |
-| Job value | Score 1 to 5 | A typical job of roughly $1,000 to $5,000: enough that a business pays well for a lead, small enough that the customer decides quickly |
-| Competition | Score 1 to 5 | Small local businesses and other lead sites on page one. National brands with large sites score low |
+For each industry give a verdict in plain words. Do not score out of 5: the course sheet has no score columns, and a number hides the reasoning. Cover the five things the course teaches:
 
-Add the three scores for a total out of 15. Give a one-line reason for every score and a note wherever you are unsure.
+| Check | What is good |
+|---|---|
+| Industry type | A trade or home service with steady, repeatable demand, quick decisions and businesses that travel across a city or region. Health and other regulated services are harder (stricter advertising rules, small catchments). So are long, considered projects such as custom builds and large renovations |
+| Search volume | Enough people searching every month in the user's city to produce a steady flow of enquiries |
+| Cost per click | Low enough that the clicks needed for one enquiry cost less than the lead can sell for |
+| Job value | A typical job of roughly $1,000 to $5,000: enough that a business pays well for a lead, small enough that the customer decides quickly |
+| Competition | Small local businesses and other lead sites on page one. National brands with large sites are harder |
 
-Search volume and cost per click are real numbers for one city. Use the user's Keyword Planner data when they paste it. Without it, give your best estimate, mark both columns "estimate" in the table, and say they must be checked in step 2 before anything is decided. Competition is also a guess until the user has looked at the results page.
+Then give one table with these columns in this order, which is the order of the yellow columns in the course's industries list: industry, average job value ($), searches a month in the city, cost per click ($), and a one-line verdict. Rank it from best to worst.
+
+The user types the three figures into each ticked row of their list, and the list works out the price per lead and whether ads pay, at a 40% gross margin and a 25% close rate. If you show a price per lead yourself, use the sum in step 3 with those same two figures so your answer agrees with their sheet.
+
+Search volume and cost per click are real numbers for one city. Use the user's Keyword Planner data when they paste it. Without it, give your best estimate, mark every figure as an estimate, and say they must be checked in step 2 before anything is decided. Competition is also a guess until the user has looked at the results page.
 
 Trades generally do well: they want the phone to ring and do not micro-manage where a lead came from. Businesses in a trade that already pay for ads or leads are a good sign.
 
-Rank the list. For the top five, run the lead price sum in step 3 and add its columns to the same table (job value, margin, spend share, spend to win a customer, close rate, price per lead, cost per click, ad cost per lead, ads pay yes or no), in one table. The course's industries list works the price out itself once the user types four figures into an industry's row (average job value, gross margin, close rate, cost per click), so tell them to enter those for each of the five; a pasted table will not line up with a long alphabetical list. Then have the user pick the ones to check by hand.
+Have the user pick about five to check by hand.
 
 ## Step 2: check demand with free tools
 
