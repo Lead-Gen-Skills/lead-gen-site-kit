@@ -13,6 +13,14 @@ Changes to match the rebuilt course.
 - `audit-site`: new `references/conversion-review.md`. The three-customer review reads the home and main service page as someone in a hurry, someone comparing quotes and someone cautious, and returns the five changes that would help most. The claims check lists every checkable claim with its source and flags anything unsourced before launch. The audit also reads the project documents for sites built in WordPress.
 - `local-seo`: new `references/monthly-routine.md` with the month 1, 2 and 3 plan, the monthly and quarterly checks, the Search Console review for pages that are nearly ranking, when to add a page, and the AI answers check. The Google Business Profile reference gains video verification, a second profile, and what to do after a suspension. The skill now states the profile risk for lead networks plainly: one Google account per site, real details only, never a bought profile or an invented unit number. Reviews: no reviews from friends, family or other course members; a lead network may show its contractor's real reviews on the website when labelled; a 30 day request timed from the enquiry. Links: a step by step for finding local link prospects.
 
+Fixes from a test run of every new piece on a sample one-city lead network:
+
+- WordPress mode: on a one-city site the home page is the city page; the service page section order is spelled out; sections the brief cannot fill are left out, not filled with placeholders; the disclosure matches the number of contractors; code helpers named in other references are mapped to their WordPress equivalent.
+- `local-seo`: the monthly routine starts with what must exist first (phone, business number, details block), says what to do when websites cannot be opened in the session, and makes the Google profile line the owner's decision for a lead network. Link and review wording tidied.
+- `audit-site`: unsourced claims are listed in full and separately from the five conversion changes, with a report format.
+- `choose-niche`: a rule of thumb for the gap between lead value, lead price and ad cost, one sum per service, and no padded keyword maps.
+- `google-ads`: the daily budget is checked against real search volume, ad groups are not padded, "free" is not a negative when the offer is a free quote, and call items wait for the phone number.
+
 ## 0.2.0, 27 October 2026
 
 Lessons from a recent two-region build.

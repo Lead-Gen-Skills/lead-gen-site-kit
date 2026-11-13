@@ -55,7 +55,9 @@ value of a lead to the buyer = average job value x buyer's profit margin x share
 cost of a lead from ads      = click cost / share of clicks that enquire
 ```
 
-- The lead price sits well below the value to the buyer, so they clearly profit, and well above the cost from ads.
+- The lead price sits well below the value to the buyer, so they clearly profit, and well above the cost from ads. As a rule of thumb, labelled as one: no more than about half the value to the buyer, and at least about one and a half times the cost from ads at the cautious rate.
+- Do the sum separately for each service with a different job value. A site can charge a different price per service.
+- The sum counts only the first job. Where customers come back or buy more later, the value to the buyer is higher; ask the buyer, do not assume.
 - Plan on one in ten to one in five clicks becoming an enquiry. Use the cautious end until the user has their own numbers.
 - If no price satisfies both, the industry does not work with ads. It may still work on search rankings alone, with a long wait before income. Say that plainly.
 - Urgent, phone-based leads are usually worth more than form enquiries. Exclusive leads, sent to one business only, are worth more than shared ones.
@@ -68,7 +70,7 @@ One city or region to start. Compare options on search volume, click cost and th
 
 ## Step 5: the keyword map
 
-For the chosen industry and city, turn the keyword data the user pastes into a map: one main keyword and two or three variations for the home page, each service page and the city page. Remove do-it-yourself and job-seeker searches. Say which services look worth their own page. Flag any two pages that would target the same search. Save it as `keyword-map.md` in the project folder; the `build-site` skill reads it for the page plan.
+For the chosen industry and city, turn the keyword data the user pastes into a map: one main keyword and two or three variations for the home page, each service page and the city page. Remove do-it-yourself and job-seeker searches. On a one-city site the home page takes the head term with the city, and there is no separate city page to compete with it. Say which services look worth their own page. If the data is thin, build the map from what there is and say so; do not pad it with guessed keywords. Flag any two pages that would target the same search. Save it as `keyword-map.md` in the project folder; the `build-site` skill reads it for the page plan.
 
 ## Rules
 

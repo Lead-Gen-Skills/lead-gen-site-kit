@@ -4,7 +4,7 @@ A new local site does not need thousands of links. On a previous build, the page
 
 ## First, give people something to link to
 
-Nobody links to a pricing page or a location page. Publish two or three genuinely useful pages first (see `build-site` content reference): a printable checklist, a cost guide with a real price table, a rules or rights explainer per region. Each with its own URL. These make outreach possible.
+Nobody chooses to link to a pricing page or a location page in an article. Publish two or three genuinely useful pages first (see `build-site` content reference): a printable checklist, a cost guide with a real price table, a rules or rights explainer per region. Each with its own URL. These make outreach possible.
 
 ## Where real local links come from
 
@@ -25,7 +25,7 @@ When the user asks for link prospects, produce a short list they can act on this
 2. Search for ten prospects local to the business: council and community business directories, chambers of commerce, trade associations, suppliers of the materials used, local clubs that list sponsors, businesses in neighbouring trades.
 3. Open each one and confirm it is live, local and lists businesses. Drop anything that sells links.
 4. For each, give the page where businesses are listed, how to get listed, and a short, plain email the user can send in their own name.
-5. Ask for the brand name or the plain web address as the link text. Never keyword-stuffed text. Send some links to location and service pages, not all to the home page.
+5. Ask for the brand name or the plain web address as the link text. Never keyword-stuffed text. Where a listing lets the user choose the address (a directory, an association or supplier listing), point some at the matching location or service page, not all at the home page.
 6. Add each to the tracker with a follow-up date. Two or three new prospects a month is enough.
 
 Expect a normal hit rate: one to three links from 20 to 30 pitches. Track replies weekly; links lag.

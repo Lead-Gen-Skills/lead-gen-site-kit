@@ -6,11 +6,22 @@ Set the expectation first: on a new domain, expect little movement for two to th
 
 No rank tracker is needed. Search Console's average position for a handful of main searches is enough.
 
+## Before month 1
+
+Three things block most of the list below. If any is missing, say so first, help the user get it, and give them only the tasks that can go ahead without it (Search Console, Bing, the review of pages, link prospect research).
+
+- A real phone number.
+- The business number, published on the site.
+- The master details block, final.
+
+If you cannot open websites in this session, do not name a directory, a prospect or a competitor's category as if you had checked it. Give the user the exact search to run and what to look for, and work from what they report back.
+
 ## Month 1: foundations (4 to 6 hours)
 
 - [ ] The master details block is final (see the `local-seo` skill).
 - [ ] The sitemap is submitted in Google Search Console and in Bing Webmaster Tools. Bing matters because several AI assistants read from its index.
-- [ ] The Google profile is complete (see `google-business-profile.md`), with Bing Places and Apple Business Connect alongside.
+- [ ] Bing Places and Apple Business Connect are set up.
+- [ ] The Google profile is complete (see `google-business-profile.md`). For a lead network this is the owner's decision: read them the "Lead networks and the profile" section of the skill first, and skip this line if they decide against it.
 - [ ] The first ten core listings are live (see `citations.md`). Before recommending any directory, open it and confirm it is live and still accepts listings. Stop at about twenty in total.
 - [ ] Social profiles are live with the same details, including a company page on LinkedIn.
 - [ ] The review request is running (see `reviews.md`).

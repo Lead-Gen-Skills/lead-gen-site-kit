@@ -19,9 +19,11 @@ These apply in Australia (ACCC guidance and the Australian Consumer Law, plus th
 1. Get the short review link from the Google profile.
 2. In the CRM (GoHighLevel on a previous build), trigger an SMS and an email to every completed job, sent when the customer has the result (if the result is confirmed later, for example by an inspection, send it after that, not straight after the job).
 3. One follow-up a few days later, then stop.
-
-For a lead network that only knows about the enquiry, not the finished job, time the ask from the enquiry: one message about 30 days later, asking how it went with the contractor they were connected to. Tell the contractor the message goes out. One message, no follow-up.
 4. If the Google profile question is not settled yet, point the ask at review platforms that survive either outcome (for Australia, ProductReview.com.au or Word of Mouth) and switch the Google link on once the profile is confirmed.
+
+### A lead network's ask
+
+A lead network knows about the enquiry, not the finished job. Time the ask from the enquiry: one message about 30 days later, asking how it went with the contractor they were connected to. Tell the contractor the message goes out. One message, no follow-up.
 
 ## Responding
 
@@ -40,4 +42,4 @@ A lead network with no reviews of its own yet may show the real reviews of the c
 
 ## Targets
 
-First milestone: 10 recent reviews with the newest inside the last week. Then hold three to five a week indefinitely. Track count and date of newest review weekly.
+A lead network asking 30 days after each enquiry will collect reviews more slowly than a business asking after every job; set the target against its own enquiry numbers. For a business that does the work: first milestone 10 recent reviews with the newest inside the last week. Then hold three to five a week indefinitely. Track count and date of newest review weekly.

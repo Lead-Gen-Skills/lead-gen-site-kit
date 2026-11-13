@@ -50,7 +50,7 @@ When a detail changes, change it in the master block and the site data file toge
 
 If the business arranges providers rather than doing the work, a Google Business Profile is a risk the owner chooses to take or not. State this plainly before any profile work, once:
 
-- A lead-generation brand with a service area that tells visitors it passes enquiries to a local contractor is a lawful business. Google's profile rules are separate from the law and stricter, and Google can suspend a profile without warning.
+- A lead-generation brand with a service area that tells visitors it passes enquiries to a local contractor is a lawful business. Google's profile rules are separate from the law and stricter: Google generally expects the profile holder to serve customers directly at that location, and it can suspend a profile without warning.
 - So treat the profile as a strong lead source that can disappear, never as the foundation. The website, ads and local links are what the owner controls.
 - Keep each site's profile in its own Google account, so one suspension cannot take others with it.
 - Real details only: an address the owner can confirm, a real phone number, real photos, real reviews.

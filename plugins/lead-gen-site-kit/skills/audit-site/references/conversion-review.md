@@ -18,12 +18,31 @@ For each person report three things, briefly:
 
 Then check the first screen on a small phone against four things that must be visible without scrolling: what the business does, where, the main action, and one true proof point.
 
-Finish with the **five changes that would help most, in order**, each with the page, the section and the exact change. Stop at five.
+Finish with the **five changes that would help most, in order**, each with the page, the section and the exact change. Stop at five. The five are conversion changes; unsourced claims from the claims check are listed in full, separately, and are not counted against the five.
+
+Report format:
+
+```
+## As three customers
+### In a hurry / Comparing quotes / Cautious
+- Looking for: ...
+- Hesitated at: "[exact element or sentence]"
+- Would have enquired if: ...
+
+## First screen on a phone
+- What / where / main action / proof point: [present or missing]
+
+## Five changes, in order
+1. [Page, section]: [exact change]
+
+## Claims with no source (fix or remove before launch)
+- [Claim], [where it appears]
+```
 
 Rules for this review:
 
 - Never suggest adding a claim the business cannot prove. If the fix for a hesitation is proof the business does not have, say what proof to go and get.
-- Do not suggest a second call to action competing with the main one. Suggest making the main one clearer.
+- One main action, with the phone as a smaller second action, is the standard. Do not suggest adding another main action to compete with it. Suggest making the main one clearer.
 - Opinion is not data. Once the site has traffic, the form step numbers and Search Console say where people really leave; say so, and prefer them.
 
 ## The claims check

@@ -40,7 +40,7 @@ Never mark an item as passing without evidence. When something cannot be verifie
 
 ## The conversion review and the claims check
 
-Read `references/conversion-review.md` when the user asks for a page to be reviewed as a customer, asks why a page is not converting, or is about to launch. Before any launch, always run the claims check and put every unsourced claim at the top of the fixes.
+Read `references/conversion-review.md` when the user asks for a page to be reviewed as a customer, asks why a page is not converting, or is about to launch. Before any launch, always run the claims check. List every unsourced claim in full, in its own section above the top five fixes; they are liabilities, not part of the five.
 
 ## Priorities
 

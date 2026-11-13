@@ -27,15 +27,15 @@ Before anything is built, do the sum with the user's own click cost estimates an
 cost per lead = click cost / share of clicks that enquire
 ```
 
-Show it at one in ten and at one in five clicks enquiring. Say which keywords work at each rate and what daily budget would bring about one lead a day. If the sum does not work on paper it will not work in the account; some trades have clicks too expensive for a new site, and those wait for rankings.
+Show it at one in ten and at one in five clicks enquiring, for each service with its own lead price. Say which keywords work at each rate and what daily budget would bring about one lead a day. Check that against how many people search: if the keywords total only a few dozen searches a day, say what volume of leads is realistic, because budget cannot buy searches that do not happen. If the sum does not work on paper it will not work in the account; some trades have clicks too expensive for a new site, and those wait for rankings.
 
 ## Step 2: conversions first
 
-No spend until Google Ads can see which clicks became leads. Three conversions: the quote form successfully sent, a tap on the phone number on the site, and a call made straight from the ad. Have the user send a test and confirm it registers. Also tell them to start advertiser verification early; it can take days.
+No spend until Google Ads can see which clicks became leads. Three conversions: the quote form successfully sent, a tap on the phone number on the site, and a call made straight from the ad. Have the user send a test and confirm it registers. If the site has no phone number yet, set up the form conversion now and add the two call conversions when the number exists. Also tell them to start advertiser verification early; it can take days.
 
 ## Step 3: build the campaign
 
-Read `references/campaign-build.md` and produce the campaign from the project's brief, keyword map and page plan: ad groups by service, keywords, the landing page for each ad group, a negative keyword list, headlines and descriptions within length limits, and the extras. Use only claims that are in the brief.
+Read `references/campaign-build.md` and produce the campaign from the project's brief, keyword map and page plan (if there is no page plan, ask which page each service should land on): ad groups by service, keywords, the landing page for each ad group, a negative keyword list, headlines and descriptions within length limits, and the extras. Use only claims that are in the brief.
 
 ## Step 4: the settings that protect the budget
 
