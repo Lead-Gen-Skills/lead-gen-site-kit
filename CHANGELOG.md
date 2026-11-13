@@ -7,6 +7,7 @@ Newest first. Every release that attendees receive gets an entry.
 Changes to match the rebuilt course.
 
 - `optimize-images`: geotagging is removed. Writing GPS coordinates into a photo has no ranking effect, so the script no longer has `--lat` and `--lng`, and the skill, the image generation notes, the Google Business Profile checklist and the project template no longer mention it.
+- `local-seo`: new `references/monthly-routine.md` with the month 1, 2 and 3 plan, the monthly and quarterly checks, the Search Console review for pages that are nearly ranking, when to add a page, and the AI answers check. The Google Business Profile reference gains video verification, a second profile, and what to do after a suspension. The skill now states the profile risk for lead networks plainly: one Google account per site, real details only, never a bought profile or an invented unit number. Reviews: no reviews from friends, family or other course members; a lead network may show its contractor's real reviews on the website when labelled; a 30 day request timed from the enquiry. Links: a step by step for finding local link prospects.
 
 ## 0.2.0, 27 October 2026
 

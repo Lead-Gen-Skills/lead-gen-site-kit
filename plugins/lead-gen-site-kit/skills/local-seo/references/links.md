@@ -17,6 +17,17 @@ In rough order of value for effort:
 5. **Journalist request services** (in Australia, SourceBottle). Answer relevant call-outs with a named spokesperson. The journalist does not filter by domain authority.
 6. **Student and community offers.** A standing discount listed on a university or community discounts page, where the audience genuinely uses the service.
 
+## Finding prospects, step by step
+
+When the user asks for link prospects, produce a short list they can act on this week:
+
+1. Ask who the contractor buys from and which associations or networks they belong to. Those relationships come first.
+2. Search for ten prospects local to the business: council and community business directories, chambers of commerce, trade associations, suppliers of the materials used, local clubs that list sponsors, businesses in neighbouring trades.
+3. Open each one and confirm it is live, local and lists businesses. Drop anything that sells links.
+4. For each, give the page where businesses are listed, how to get listed, and a short, plain email the user can send in their own name.
+5. Ask for the brand name or the plain web address as the link text. Never keyword-stuffed text. Send some links to location and service pages, not all to the home page.
+6. Add each to the tracker with a follow-up date. Two or three new prospects a month is enough.
+
 Expect a normal hit rate: one to three links from 20 to 30 pitches. Track replies weekly; links lag.
 
 Do not pitch government regulators for links. They will not link to a commercial business.

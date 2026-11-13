@@ -4,11 +4,14 @@ description: >
   This skill should be used when the user asks about "Google Business Profile",
   "GBP", "ranking in the map pack", "local SEO", "citations", "directories",
   "NAP consistency", "getting reviews", "backlinks for a local business",
-  "why isn't my new site ranking", or what to do after launching a lead-gen
-  website. It covers the off-page plan that actually moves a new local site:
-  the profile, reviews, citations, links and what to avoid.
+  "why isn't my new site ranking", "what do I do for SEO each month", "monthly
+  SEO routine", "verify my Google profile", "video verification", "my profile
+  was suspended", "find local link prospects", "which pages are nearly
+  ranking", or what to do after launching a lead-gen website. It covers the
+  off-page plan that actually moves a new local site: the profile, reviews,
+  citations, links, the month by month routine and what to avoid.
 metadata:
-  version: "0.1.0"
+  version: "0.3.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -22,6 +25,8 @@ So after launch, the work shifts to these levers, in this order:
 2. **A review programme**, done legally. Read `references/reviews.md`.
 3. **Citations**, with identical details everywhere. Read `references/citations.md`.
 4. **Links from real local relationships** and two or three linkable pages. Read `references/links.md`.
+
+When the user asks what to do this month, or how to keep going after launch, read `references/monthly-routine.md` and work from the month they are in.
 
 ## Before any of it: the master details block
 
@@ -41,9 +46,17 @@ Business number:[ABN or equivalent]
 
 When a detail changes, change it in the master block and the site data file together, then work down every live listing.
 
-## Lead networks: settle eligibility first
+## Lead networks and the profile: the owner's decision, made with open eyes
 
-If the business arranges providers rather than doing the work, check the platform rules before investing. Google Business Profile, and marketplaces like Airtasker, hipages and ServiceSeeking, generally expect the account holder to serve customers directly at that location. Profile eligibility is a business decision to make first, not an SEO detail to discover later. Reviews earned on a profile that later has to be removed are lost.
+If the business arranges providers rather than doing the work, a Google Business Profile is a risk the owner chooses to take or not. State this plainly before any profile work, once:
+
+- A lead-generation brand with a service area that tells visitors it passes enquiries to a local contractor is a lawful business. Google's profile rules are separate from the law and stricter, and Google can suspend a profile without warning.
+- So treat the profile as a strong lead source that can disappear, never as the foundation. The website, ads and local links are what the owner controls.
+- Keep each site's profile in its own Google account, so one suspension cannot take others with it.
+- Real details only: an address the owner can confirm, a real phone number, real photos, real reviews.
+- Never buy a verified profile, never invent a unit or suite number, never verify at an address the owner cannot confirm. These end in suspension.
+
+Marketplaces such as Airtasker, hipages and ServiceSeeking generally expect the account holder to do the work; check each one's rules. Reviews earned on a profile that is later removed are lost, so tell the owner that too.
 
 ## Track progress
 
@@ -56,4 +69,5 @@ Keep a simple tracker (a sheet works) with one row per listing: platform, URL, s
 | `references/google-business-profile.md` | Setting up and completing the profile, how Google ranks local results, weekly habits |
 | `references/reviews.md` | Asking for reviews legally and consistently |
 | `references/citations.md` | Directory tiers, the golden NAP rule, what to skip |
-| `references/links.md` | Earning real links, linkable assets, and what never to do |
+| `references/links.md` | Earning real links, finding prospects, linkable assets, and what never to do |
+| `references/monthly-routine.md` | What to do in month 1, 2, 3 and every month after, the Search Console review, the AI answers check |
