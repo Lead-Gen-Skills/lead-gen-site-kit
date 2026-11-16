@@ -2,6 +2,10 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.4.0, 16 November 2026
+
+- `choose-niche`: keyword research now works with whatever the user has. New `references/keyword-research.md` sets the order: a keyword tool connected to the session, then an export or paste from any tool, then no tool at all, with volumes left unknown and never invented. It covers only what is different for a local lead site: set the location to the city, count "near me" and plain service searches, add up small numbers per page, count only buyer searches, treat click cost as a sign of value, read page one instead of difficulty scores, and check local wording. The keyword map gives every page a monthly search total and allows suburb pages only inside the buyer's service area.
+
 ## 0.3.3, 13 November 2026
 
 - `choose-niche`: step 1 no longer scores industries out of 5. It gives a plain-words verdict on each ticked industry and one table of three figures (average job value, searches a month, cost per click), in the order of the columns in the course's industries list. The list works out the price per lead and whether ads pay, at a 40% gross margin and a 25% close rate, and the skill uses the same two figures when it shows a price.

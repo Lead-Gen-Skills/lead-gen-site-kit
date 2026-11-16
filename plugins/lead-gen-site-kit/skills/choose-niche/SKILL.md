@@ -6,10 +6,10 @@ description: >
   I build a site for", "do keyword research for my lead gen site", "build a
   keyword map", "what is a lead worth", "set my lead price", "choose a city", or
   is deciding what a new lead-generation site should be about and where. It
-  covers checking a shortlist of industries, checking demand with free tools, the keyword
+  covers checking a shortlist of industries, checking demand with whatever keyword tool the user has, the keyword
   map and the lead price sum.
 metadata:
-  version: "0.3.3"
+  version: "0.4.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -43,13 +43,15 @@ Trades generally do well: they want the phone to ring and do not micro-manage wh
 
 Have the user pick about five to check by hand.
 
-## Step 2: check demand with free tools
+## Step 2: check demand
 
-For each of the five, the user looks up the main search for their city in Google Ads Keyword Planner and records monthly searches and the click cost estimate. You cannot do this for them unless they paste the data.
+Read `references/keyword-research.md` first. It sets where the data comes from (a connected keyword tool, then an export or paste from any tool, then no tool at all) and the rules that are different for a local lead site.
 
-Then have them read the results page for that search and tell you four things: whether the top results are small local businesses or national brands, how strong the map pack is, whether there are ads, and whether an AI answer sits at the top. Small local businesses and other lead sites on page one is a good sign. National brands with large sites is a bad one.
+For each of the five, get the monthly searches and the click cost for the main search, with the location set to the user's city. Use a connected keyword tool if the session has one. Otherwise ask the user to paste or export the figures from whatever tool they use; Google Ads Keyword Planner is free. If they have no tool, leave the figures unknown and say so. Never invent them.
 
-Weight searches that show someone wants the service now, in a place: the service with the city, "near me", emergency and cost searches. Do not count "how to" and do-it-yourself searches as demand; AI answers now take many of those clicks.
+Then read the results page for that search, or have the user read it and tell you four things: whether the top results are small local businesses or national brands, how strong the map pack is, whether there are ads, and whether an AI answer sits at the top. Small local businesses and other lead sites on page one is a good sign. National brands with large sites is a bad one.
+
+Count only searches from buyers: the service with the city, "near me", emergency, cost and quote searches. Small local numbers are normal, so add them up before judging.
 
 A paid keyword tool is optional. Never tell the user they need one.
 
@@ -81,7 +83,7 @@ One city or region to start. Compare options on search volume, click cost and th
 
 ## Step 5: the keyword map
 
-For the chosen industry and city, turn the keyword data the user pastes into a map: one main keyword and two or three variations for the home page, each service page and the city page. Remove do-it-yourself and job-seeker searches. On a one-city site the home page takes the head term with the city, and there is no separate city page to compete with it. Say which services look worth their own page. If the data is thin, build the map from what there is and say so; do not pad it with guessed keywords. Flag any two pages that would target the same search. Save it as `keyword-map.md` in the project folder; the `build-site` skill reads it for the page plan.
+For the chosen industry and city, build the keyword map by the rules in `references/keyword-research.md`, from a connected tool, from the data the user pastes, or with volumes left unknown. In short: one main keyword and two or three variations per page; the home page takes the service with the city; one page per service worth its own page; suburb pages only inside the buyer's service area; a monthly search total for every page; no padded keywords; and a flag on any two pages that target the same search. Save it as `keyword-map.md` in the project folder; the `build-site` skill reads it for the page plan.
 
 ## Rules
 
