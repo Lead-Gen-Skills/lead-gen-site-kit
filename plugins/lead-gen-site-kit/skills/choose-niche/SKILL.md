@@ -83,7 +83,7 @@ One city or region to start. Compare options on search volume, click cost and th
 
 ## Step 5: the keyword map
 
-For the chosen industry and city, build the keyword map by the rules in `references/keyword-research.md`, from a connected tool, from the data the user pastes, or with volumes left unknown. In short: one main keyword and two or three variations per page; the home page takes the service with the city; one page per service worth its own page; suburb pages only inside the buyer's service area; a monthly search total for every page; no padded keywords; and a flag on any two pages that target the same search. Save it as `keyword-map.md` in the project folder; the `build-site` skill reads it for the page plan.
+For the chosen industry and city, build the keyword map by the rules in `references/keyword-research.md`, from a connected tool, from the data the user pastes, or with volumes left unknown. It uses the same layout as the course's Keyword sheet, so each row copies straight in: a line saying when it was researched, with which tool and for which area, then Home page with a page one check, Services with a Pricing page, Suburbs, Optional later (not in the site total), Clashes to watch and Searches left out. Each page row gives the web address (`/`, `/[service]/`, `/[service]-[suburb]/` or `/pricing/`, and no page for the city itself), one main keyword, three secondary keywords, the page total, the highest click cost and notes. No padded keywords. Save it as `keyword-map.md` in the project folder; the `build-site` skill reads it for the page plan.
 
 ## Rules
 

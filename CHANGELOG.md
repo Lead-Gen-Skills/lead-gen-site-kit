@@ -2,6 +2,10 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.5.0, 16 November 2026
+
+- `choose-niche`: the keyword map now uses the same layout as the course's Keyword sheet, so each row copies straight in. It opens with when it was researched, the tool and the area searched, then has these sections in order: Home page, Services (with a Pricing page at `/pricing/` that takes every cost and price search), Suburbs, Optional later (not counted in the site total), Clashes to watch and Searches left out. Every page row has the same columns: page, web address, main keyword, three secondary keywords, the page total, click cost and notes. Web addresses are `/`, `/[service]/` and `/[service]-[suburb]/`, and the city gets no page of its own because the home page owns "[service] [city]". Click cost is the highest among the page's keywords, with its keyword named in the notes, or "none reported", never blank. A one-row page one check for the home page's main keyword answers Yes or No for the map pack, the AI answer and whether it is a good sign, and Yes, No or Not checked for ads. Suburbs with no measurable volume leave the number blank and say "under 10". The full keyword list behind each page stays below the map.
+
 ## 0.4.0, 16 November 2026
 
 - `choose-niche`: keyword research now works with whatever the user has. New `references/keyword-research.md` sets the order: a keyword tool connected to the session, then an export or paste from any tool, then no tool at all, with volumes left unknown and never invented. It covers only what is different for a local lead site: set the location to the city, count "near me" and plain service searches, add up small numbers per page, count only buyer searches, treat click cost as a sign of value, read page one instead of difficulty scores, and check local wording. The keyword map gives every page a monthly search total and allows suburb pages only inside the buyer's service area.
