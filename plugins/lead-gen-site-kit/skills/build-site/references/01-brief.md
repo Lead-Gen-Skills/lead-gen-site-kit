@@ -1,6 +1,16 @@
 # The brief
 
-Fill this in with the user before any code is written. Every `[bracketed]` value is a blank. Unknown values become `TODO` placeholders in the data file and go on the launch checklist; never guess them.
+Fill this in before any code or copy is written. Every `[bracketed]` value is a blank. Unknown values become `TODO` placeholders in the data file and go on the launch checklist; never guess them.
+
+## How to fill it in: draft first, then ask
+
+1. **Read what the project folder already holds:** `industry-research.md` (run `00-industry-research.md` first if it is missing), the keyword map, the prospect list, any call notes or buyer answers, and what the user said in their request.
+2. **Draft every field you can from those.** Services and their wording, the head term, the URL slug, the locale, the likely main action, whether the trade shows prices, the official body to link to: the research and the keyword map answer these. The user should not be asked for them.
+3. **Skip any question the user has already answered.** If they have told you the business model, the brand or the domain, write it in and move on.
+4. **Ask only for the decisions that are the user's, in one short list, with your recommendation and the reason for each.** Usually: phone or form as the main action, prices shown or quote only, which areas to launch with, the exact wording of the call to action, and what the brand can honestly promise. Add any Part A question that is still open. Keep the list to seven items or fewer.
+5. **Leave buyer facts open.** On a lead network site the licence number, real reviews, job photos, years trading, the areas the buyer will travel to and any guarantee the buyer has to honour all come from the business that does the work. Mark each `TO CONFIRM WITH BUYER`. If there is no buyer yet, say so in the brief and draft a site that works without those facts: no rating, no licence number, no guarantee that someone else has to keep.
+6. **Research is not the user's facts.** What other businesses promise or charge tells you what is normal. It never becomes this site's guarantee, price or proof.
+7. **Finish with Part C,** and list everything you assumed.
 
 ## Part A: five business questions (answer first)
 
@@ -8,7 +18,7 @@ These gate decisions that are expensive to undo. On a previous build, leaving th
 
 1. **Who does the work?** (a) we do the work ourselves, or (b) we are a lead network that arranges independent providers. If (b), write the exact disclosure sentence for every footer, for example: "[Brand] arranges a network of independent, insured providers. We do not perform the work ourselves."
 2. **Where do we have a real presence?** A real local phone, a real address or verified service base, and staff or providers who actually work there. Only these locations get a Google Business Profile and a `LocalBusiness` schema node. Other locations can still have a page, but carry a `Service` node only.
-3. **What exactly do we guarantee?** Write the guarantee as a precise, deliverable promise (for example "we come back and redo it free within [N] hours", not "100% [outcome] guaranteed"). An unqualified promise in a title tag that the fine print walks back is a consumer law problem. Who fulfils it, if providers do the work?
+3. **What exactly do we guarantee?** On a lead network site with no buyer yet, promise only what the brand itself controls (for example how quickly an enquiry is passed on) and mark the rest `TO CONFIRM WITH BUYER`. Write the guarantee as a precise, deliverable promise (for example "we come back and redo it free within [N] hours", not "100% [outcome] guaranteed"). An unqualified promise in a title tag that the fine print walks back is a consumer law problem. Who fulfils it, if providers do the work?
 4. **What proof do we really have?** Real review count and average, from where, and how recent. Real jobs completed. Years trading. If the honest answer is "very little yet", the site launches without a rating and earns one.
 5. **What is the legal entity?** Registered name and business number (in Australia, the ABN). It goes in the footer, the privacy policy and the Organization schema, and directories ask for it.
 
