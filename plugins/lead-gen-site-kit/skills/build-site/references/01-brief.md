@@ -10,13 +10,15 @@ Fill this in before any code or copy is written. Every `[bracketed]` value is a 
 4. **Ask only for the decisions that are the user's, in one short list, with your recommendation and the reason for each.** Usually: phone or form as the main action, prices shown or quote only, which areas to launch with, the exact wording of the call to action, and what the brand can honestly promise. Add any Part A question that is still open. Keep the list to seven items or fewer.
 5. **Leave buyer facts open.** On a lead network site the licence number, real reviews, job photos, years trading, the areas the buyer will travel to and any guarantee the buyer has to honour all come from the business that does the work. Mark each `TO CONFIRM WITH BUYER`. If there is no buyer yet, say so in the brief and draft a site that works without those facts: no rating, no licence number, no guarantee that someone else has to keep.
 6. **Research is not the user's facts.** What other businesses promise or charge tells you what is normal. It never becomes this site's guarantee, price or proof.
-7. **Finish with Part C,** and list everything you assumed.
+7. **Pages that need facts you do not have.** If the keyword map calls for a page that only a buyer's facts can fill (a pricing page is the usual one), keep it in the plan, hold it back from launch, and put it in the decisions list. Never fill it with other businesses' figures or with placeholders.
+8. **In WordPress mode** write `TO CONFIRM` wherever this file says `TODO`, and treat the Design and Hosting fields as the user's own: note "user's own" and move on.
+9. **Finish with Part C,** and list everything you assumed.
 
 ## Part A: five business questions (answer first)
 
 These gate decisions that are expensive to undo. On a previous build, leaving them open caused months of rework.
 
-1. **Who does the work?** (a) we do the work ourselves, or (b) we are a lead network that arranges independent providers. If (b), write the exact disclosure sentence for every footer, for example: "[Brand] arranges a network of independent, insured providers. We do not perform the work ourselves."
+1. **Who does the work?** (a) we do the work ourselves, or (b) we are a lead network that arranges independent providers. If (b), write the exact disclosure sentence for every footer, for example: "[Brand] passes your enquiry to a local [trade] business, which quotes and does the work. We do not do the work ourselves." Say "licensed" or "insured" only once there is a provider whose licence and insurance you have seen, and say "a network" only if there is more than one.
 2. **Where do we have a real presence?** A real local phone, a real address or verified service base, and staff or providers who actually work there. Only these locations get a Google Business Profile and a `LocalBusiness` schema node. Other locations can still have a page, but carry a `Service` node only.
 3. **What exactly do we guarantee?** On a lead network site with no buyer yet, promise only what the brand itself controls (for example how quickly an enquiry is passed on) and mark the rest `TO CONFIRM WITH BUYER`. Write the guarantee as a precise, deliverable promise (for example "we come back and redo it free within [N] hours", not "100% [outcome] guaranteed"). An unqualified promise in a title tag that the fine print walks back is a consumer law problem. Who fulfils it, if providers do the work?
 4. **What proof do we really have?** Real review count and average, from where, and how recent. Real jobs completed. Years trading. If the honest answer is "very little yet", the site launches without a rating and earns one.
@@ -27,7 +29,7 @@ These gate decisions that are expensive to undo. On a previous build, leaving th
 - **Niche and service:** [service]
 - **Brand name:** [brand]  **Legal name and business number:** [entity, ABN]
 - **Business model:** [from question 1, plus the disclosure sentence if a lead network]
-- **Primary conversion:** [e.g. "Get a Free Quote" linking out to a GoHighLevel funnel at (funnel URL). No on-site form.] The CTA wording is exactly **"[CTA text]"**.
+- **Primary conversion:** [e.g. "Get a Free Quote" linking to the on-site quote page, or out to an external funnel at (funnel URL)] The CTA wording is exactly **"[CTA text]"**.
 - **Secondary action:** [usually "Call", a `tel:` link]
 - **Production domain:** [https://example.com.au]
 - **Country and locale:** [e.g. Australia, en-AU]

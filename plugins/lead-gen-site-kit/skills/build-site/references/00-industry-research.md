@@ -6,8 +6,8 @@ The aim is to understand what customers in this trade and this city expect. It i
 
 ## What to read, in this order
 
-1. **The user's prospect list, if the project folder has one.** A spreadsheet or CSV of local businesses in the trade, usually with a website column. These are the established local businesses, so their sites show what customers in this city are used to. Pick the ten best matches: businesses that specialise in the service, have a real website and look established. Read each site's home page, its main service page and any reviews, pricing or FAQ page.
-2. **Page one for the main keyword in the city.** Read the organic results and the map pack. Note who appears that is not on the prospect list: directories, national brands, other lead sites.
+1. **The user's prospect list, if the project folder has one.** A spreadsheet or CSV of local businesses in the trade, usually with a website column. These are the established local businesses, so their sites show what customers in this city are used to. Pick the ten best matches: businesses that specialise in the service, have a real website and look established. Use the list's own columns (specialist or not, reviews, signs of size) to choose. If the list holds ten or fewer, read them all. A mix of specialists and general businesses that also offer the service is fine: say what the mix was. Read each site's home page, its main service page and any reviews, pricing or FAQ page.
+2. **Page one for the main keyword in the city.** Read the organic results and the map pack. Note who appears that is not on the prospect list: directories, national brands, other lead sites. If you cannot load a live results page for that city, search the main keyword, use what you can see, say plainly that you could not see the map pack or the "people also ask" box, and ask the user for a screenshot of page one.
 3. **Anything the user already has.** Call notes, a buyer's answers, a keyword map, reviews they have pasted in.
 
 If there is no prospect list, ask for one, or search for established local businesses in the trade and say that is what you did.
@@ -16,7 +16,7 @@ If there is no prospect list, ask for one, or search for established local busin
 
 1. **Services.** What every business offers, what only some offer, and the words customers use for each. Local wording matters: use the terms these sites and their reviews use, not the terms you would have chosen.
 2. **Guarantees and promises.** What they promise, and how precisely. Note the ones that are common enough that a customer would expect them.
-3. **What customers praise and complain about,** from every review you can read. Turning up on time, clear quotes, tidy work, being called back: these become the site's proof points and its FAQ answers.
+3. **What customers praise and complain about,** from every review you can read. Try, in this order: reviews and testimonials on the business's own site (including embedded review widgets), then review and directory sites you can open, then reviews the user pastes in. Reviews on a business's own site were chosen by that business, so complaints will be missing: say so rather than reporting that customers have none. Turning up on time, clear quotes, tidy work, being called back: these become the site's proof points and its FAQ answers.
 4. **Prices.** Whether they are shown, and how: fixed prices, "from" prices, price per unit, or quote only.
 5. **Trust signals.** Licences, insurance, years trading, association memberships, warranties, real photos.
 6. **Questions customers ask before they book.** From FAQ pages, reviews and the "people also ask" box.
@@ -41,4 +41,4 @@ Save `industry-research.md` in the project folder, one to two pages:
 - **What this means for the site:** the service pages worth having, phone or form as the likely main action, whether to show prices, the proof points customers care about, the questions for the FAQ, and the gap the site can fill.
 - **Could not read:** sites and review sources you could not open.
 
-Then tell the user the three findings that will most change the site, and move on to the brief.
+Then tell the user the three findings that will most change the site. If they asked only for the research, stop there and offer the brief as the next step. Otherwise move on to the brief.
