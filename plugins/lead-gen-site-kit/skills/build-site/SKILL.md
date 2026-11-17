@@ -11,7 +11,7 @@ description: >
   brief, the stack, the data model, URL structure, conversion layout, copy,
   metadata, schema, AI search files, measurement and the launch checklist.
 metadata:
-  version: "0.4.2"
+  version: "0.5.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -48,6 +48,8 @@ Work through these phases in order. Do not skip phase 1: most expensive mistakes
 
 Never invent business facts (phone, address, review counts, licences, guarantees, years in business). Mark unknowns as `TODO` placeholders and list them back to the user at the end of the build.
 
+**No buyer yet, or building a teaching example?** If the user wants the full site live before a buyer is signed, read `references/10-demo-mode.md`: a sample installer, a demo strip, kept out of search, never a real business's reviews.
+
 Settle the five business questions in that file before writing code, especially: **do you do the work yourself, or are you a lead network that passes jobs to providers?** That one answer changes the footer disclosure, the schema, the Google Business Profile eligibility and the copy. If the user has already told you which, do not ask again.
 
 ### Phase 2: foundations
@@ -56,7 +58,7 @@ Read `references/02-architecture.md`. Scaffold the stack, create the single type
 
 ### Phase 3: the conversion layer
 
-Read `references/03-conversion.md`. Build the quote form with the `lead-form` skill in this plugin. Build the page sections in the order given, trust first: hero, trust bar, why book with us (crew photo and four proof points), how it works, jobs we do around here, guarantee, pricing, inclusions, reviews, the answer-first overview, FAQs, final CTA, sticky mobile bar.
+Read `references/03-conversion.md`. Build the quote form with the `lead-form` skill in this plugin. Build the page sections in the order given, trust first: hero (rating above the buttons), trust bar, services with a photo each, why book with us (crew photo and four proof points), reviews, how it works, guarantee, areas we cover, the answer-first overview, FAQs, final CTA, sticky mobile bar. Pricing goes on every page or on the pricing page only, as the brief decided. Build the About and contact pages (with a map of the service area) the same way.
 
 ### Phase 4: content
 
@@ -110,4 +112,5 @@ Enforce these on every page and every commit. Restate them in the project's `CLA
 | `references/07-measurement.md` | GA4 events, cross-domain tracking, Search Console |
 | `references/08-launch-checklist.md` | Before go-live, and as a progress tracker |
 | `references/09-wordpress-mode.md` | The user builds in WordPress and wants the brief, page plan and copy |
+| `references/10-demo-mode.md` | The site goes live before a buyer is signed, or is built as a teaching example |
 | `templates/CLAUDE.md.template` | Creating the project's always-read rules file |

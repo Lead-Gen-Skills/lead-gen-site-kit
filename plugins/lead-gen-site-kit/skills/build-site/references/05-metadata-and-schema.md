@@ -41,7 +41,7 @@ Link every entity by `@id`:
 
 - `Service` carries `alternateName` set to the local term.
 - `WebPage` carries a `SpeakableSpecification` pointing at fact selectors (`#definition`, `.faq-answer`), not the headline.
-- `BreadcrumbList` on every non-home page, even without a visible breadcrumb.
+- `BreadcrumbList` on every non-home page. The breadcrumb links stay in the page for screen readers but are hidden visually (see "Breadcrumbs" in `03-conversion.md`).
 - `Organization.sameAs` lists only social and directory profiles that exist and resolve. An empty array is honest; a list of dead links is not.
 - If the brand name collides with another business (a previous build did, with a brand in another industry), declare the relationship in prose on the About page and in `llms.txt`, not only in schema.
 

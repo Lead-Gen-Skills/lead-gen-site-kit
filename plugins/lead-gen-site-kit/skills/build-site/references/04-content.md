@@ -61,6 +61,19 @@ Adding a location is one data entry, which is exactly the trap: cheap to build i
 
 Suburb pages, if you build them, are a hard-capped pilot (five or six pages on flat URLs) with genuinely unique content and operator sign-off, never a programmatic batch of dozens.
 
+### The suburb page recipe
+
+Build each suburb page from a few true, specific facts, never from a template with the name swapped in:
+
+- the council or body that inspects or regulates the work there;
+- the distance and direction from the city centre;
+- one local angle that changes the job (coast and salt air, a river, sloping blocks, the age of the housing, new estates, narrow side access);
+- a short paragraph on the housing and what it means for the work;
+- one FAQ that comes from that local angle;
+- its own hero photo showing that angle (see the `optimize-images` skill).
+
+If you cannot write the local angle truthfully, that suburb does not get a page yet. Pick the five or six suburbs where the angle is strongest and the business really works.
+
 ## Linkable informational pages
 
 Informational queries are far easier to rank for than commercial head terms on a new domain. On a previous build, a "[service] checklist" query reached position 2 with no dedicated page while the commercial terms sat at 45 to 85. Plan two or three genuinely useful pages early:
