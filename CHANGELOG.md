@@ -5,6 +5,7 @@ Newest first. Every release that attendees receive gets an entry.
 ## 0.6.1, 17 November 2026
 
 - `build-site`: business details come first. New `references/00-business-details.md` has the AI find the user's details sheet in the project folder, check the name, phone, email, web address, hours and service area, point out anything blank or inconsistent, and ask for the gaps in one short list. A phone number that has not been bought yet is recorded as to confirm and carried as a marked placeholder, never invented. The brief now takes the brand, domain, service, city and contact details from that sheet, so the user no longer types them into the prompt, and once the brief is agreed the AI drafts the short, profile and long descriptions for the sheet. Ask for the check by itself with "check my business details".
+- `build-site`: fixes from a test run. A request that is only a details check or only research no longer asks whether the site is WordPress or code. A "not yet" in the user's sheet is left as written, and notes about a value go in the notes column, not the value cell. The brief does not ask again for launch areas the details already hold, uses the web addresses in the keyword map when it has them, and says in one line when it leaves out a claim such as "licensed" that nothing yet supports. With no buyer, the example promise is how quickly the brand replies, not how quickly an enquiry is passed on.
 
 ## 0.6.0, 16 November 2026
 

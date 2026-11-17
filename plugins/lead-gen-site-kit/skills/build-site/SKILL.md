@@ -32,7 +32,7 @@ Ask once, before anything else: **are you building the site yourself in WordPres
 - **WordPress mode:** read `references/09-wordpress-mode.md` and follow it. You produce the brief, the page plan and the copy as documents; the user builds the pages. Skip phase 2 below.
 - **Coded build:** follow the phases below.
 
-If the user has already said which (for example "my site is built in WordPress"), do not ask again.
+If the user has already said which (for example "my site is built in WordPress"), do not ask again. Do not ask at all when the request is only to check the business details or only to research the industry: neither depends on the mode.
 
 ## How to run a build
 
