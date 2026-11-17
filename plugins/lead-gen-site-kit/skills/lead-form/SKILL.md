@@ -11,7 +11,7 @@ description: >
   privacy wording, spam, the backend that saves and forwards each lead,
   measurement and what to test.
 metadata:
-  version: "0.1.0"
+  version: "0.2.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -32,14 +32,26 @@ Read `references/best-practices.md` first. With the user, list what the business
 
 1. An easy, non-personal tap question that also sizes the job (property size, service type).
 2. One or two qualifying taps (how soon, any extras that change the price).
-3. The address (with autocomplete).
+3. Where the job is: the address (with autocomplete) when the business needs it to quote, or just the postcode when the only question is whether the job is in the area (see "The area check" below).
 4. Name, phone, optional email, optional note. Always last.
 
 Never invent prices, response times or guarantees. Ask the user for the real numbers.
 
-### Step 2: decide on the price reveal
+### Step 2: decide on the price reveal (off by default)
 
-If customers keep asking "how much?", show the starting price the moment the visitor answers the sizing question, and let them carry on. Read the price reveal section of `references/best-practices.md`. The "from" price must be one customers can actually get (Australian Consumer Law), and it must come from the same data that drives the site's pricing table so the two can never disagree.
+The form shows no prices unless the user chooses the reveal in the brief. Many owners prefer prices on the pricing page only, and then the first tap simply moves on like every other question. Offer it, with your recommendation, only when it fits the brief.
+
+If the user wants it, because customers keep asking "how much?", show the starting price the moment the visitor answers the sizing question, and let them carry on. Read the price reveal section of `references/best-practices.md`. The "from" price must be one customers can actually get (Australian Consumer Law), and it must come from the same data that drives the site's pricing table so the two can never disagree.
+
+### The area check
+
+When the business covers a metro area and does not need the address to quote, ask for the postcode instead: "What's your postcode? So we can check it's in our area."
+
+- One short box: four digits, a number keyboard, `autocomplete="postal-code"`.
+- Keep the allowed postcodes (a range or a list) in the site's data, marked to confirm with the buyer. A range is only an estimate of a metro area.
+- Outside the area: a polite message that the postcode is outside the area, with the phone number in case it is wrong. Do not send the lead on, because the buyer will dispute an out-of-area lead.
+- A typo gets its own message: "Please enter your 4 digit postcode."
+- Save the postcode with the lead, under a readable name (`postcode`).
 
 ### Step 3: build it
 

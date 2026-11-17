@@ -47,6 +47,8 @@ The thank-you screen repeats the size and price ("your fixed quote for the 3 bed
 
 ## The price reveal ("from $X" after the size question)
 
+**Opt-in only.** The form shows no prices unless the owner chooses this in the brief. Without it, the sizing question advances on tap like the others.
+
 A previous build added this because callers kept asking only about price. The idea: answer the price question up front, so price checkers self-select out before costing a callback, and the people who carry on already accept the range.
 
 - **The evidence is thin, so treat it as a test.** No controlled home-services test was found. A B2B case saw pricing near the form cut leads 8.7% but lift lead to opportunity 21%. *Weak*: [Goyette](https://adamgoyette.substack.com/p/should-you-put-pricing-on-your-landing). An older software test saw a prominent price double leads. *Medium, different market*: [VWO](https://vwo.com/blog/prominent-price-display-increases-leads-generated-by-100/). Expect fewer but better leads, and judge it on booked jobs per visitor.
