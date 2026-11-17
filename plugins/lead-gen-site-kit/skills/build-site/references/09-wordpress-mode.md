@@ -12,6 +12,7 @@ Create these in the user's project folder, so later sessions (audits, the monthl
 
 | File | Contents |
 |---|---|
+| `business-details.md` | Only when the user has no details sheet of their own: the business details from `00-business-details.md` |
 | `industry-research.md` | The research from `00-industry-research.md`: what local businesses in the trade offer, promise and charge, and what their customers say |
 | `brief.md` | The brief from `01-brief.md`, every field answered or marked `TO CONFIRM` |
 | `page-plan.md` | One row per page: page name, URL slug, the one main keyword, two or three variations, which pages it links to |
@@ -20,7 +21,7 @@ Create these in the user's project folder, so later sessions (audits, the monthl
 
 ## The steps
 
-1. **Research, then the brief.** Run `00-industry-research.md` first unless `industry-research.md` is already in the folder. Then run `01-brief.md` the way it describes: draft the whole brief yourself from the research and the keyword map, and ask the user only for their decisions, in one short list with a recommendation for each. Never fill a factual gap yourself. Unknowns go to `to-confirm.md`, with buyer facts marked `TO CONFIRM WITH BUYER`.
+1. **Details, research, then the brief.** Run `00-business-details.md` first: check the user's details sheet and ask for the gaps in one list. Then run `00-industry-research.md` unless `industry-research.md` is already in the folder. Then run `01-brief.md` the way it describes: draft the whole brief yourself from the business details, the research and the keyword map, and ask the user only for their decisions, in one short list with a recommendation for each. Never fill a factual gap yourself. Unknowns go to `to-confirm.md`, with buyer facts marked `TO CONFIRM WITH BUYER`.
 2. **Page plan.** Read `04-content.md` for the keyword map. One main keyword per page; flag any two pages that target the same search. URL slugs are short and flat with the service and the place together: `/[service-keyword]-[location]/`. No empty parent pages.
    - **On a one-city site the home page is the city page.** It takes the head term with the city. Do not plan a separate city page that would compete with it. Each service page takes its own service with the city.
    - **Suburbs:** follow the pilot rules in `04-content.md`. Start with a handful, never more than ten at launch, and only suburbs the business covers and has something true and specific to say about.

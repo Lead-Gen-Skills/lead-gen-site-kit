@@ -4,8 +4,8 @@ Fill this in before any code or copy is written. Every `[bracketed]` value is a 
 
 ## How to fill it in: draft first, then ask
 
-1. **Read what the project folder already holds:** `industry-research.md` (run `00-industry-research.md` first if it is missing), the keyword map, the prospect list, any call notes or buyer answers, and what the user said in their request.
-2. **Draft every field you can from those.** Services and their wording, the head term, the URL slug, the locale, the likely main action, whether the trade shows prices, the official body to link to: the research and the keyword map answer these. The user should not be asked for them.
+1. **Read what the project folder already holds:** the business details (run `00-business-details.md` first if they have not been checked), `industry-research.md` (run `00-industry-research.md` first if it is missing), the keyword map, the prospect list, any call notes or buyer answers, and what the user said in their request.
+2. **Draft every field you can from those.** The brand, the domain, the service, the city and the NAP come from the business details, character for character. Services and their wording, the head term, the URL slug, the locale, the likely main action, whether the trade shows prices, the official body to link to: the research and the keyword map answer these. The user should not be asked for them.
 3. **Skip any question the user has already answered.** If they have told you the business model, the brand or the domain, write it in and move on.
 4. **Ask only for the decisions that are the user's, in one short list, with your recommendation and the reason for each.** Usually: phone or form as the main action, prices shown or quote only, which areas to launch with, the exact wording of the call to action, and what the brand can honestly promise. Add any Part A question that is still open. Keep the list to seven items or fewer.
 5. **Leave buyer facts open.** On a lead network site the licence number, real reviews, job photos, years trading, the areas the buyer will travel to and any guarantee the buyer has to honour all come from the business that does the work. Mark each `TO CONFIRM WITH BUYER`. If there is no buyer yet, say so in the brief and draft a site that works without those facts: no rating, no licence number, no guarantee that someone else has to keep.
@@ -13,6 +13,7 @@ Fill this in before any code or copy is written. Every `[bracketed]` value is a 
 7. **Pages that need facts you do not have.** If the keyword map calls for a page that only a buyer's facts can fill (a pricing page is the usual one), keep it in the plan, hold it back from launch, and put it in the decisions list. Never fill it with other businesses' figures or with placeholders.
 8. **In WordPress mode** write `TO CONFIRM` wherever this file says `TODO`, and treat the Design and Hosting fields as the user's own: note "user's own" and move on.
 9. **Finish with Part C,** and list everything you assumed.
+10. **Once the user says yes, write the descriptions** the way `00-business-details.md` describes (short, profile length, long), from the facts in the brief only, and put them in the details sheet.
 
 ## Part A: five business questions (answer first)
 

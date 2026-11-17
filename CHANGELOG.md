@@ -2,6 +2,10 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.6.1, 17 November 2026
+
+- `build-site`: business details come first. New `references/00-business-details.md` has the AI find the user's details sheet in the project folder, check the name, phone, email, web address, hours and service area, point out anything blank or inconsistent, and ask for the gaps in one short list. A phone number that has not been bought yet is recorded as to confirm and carried as a marked placeholder, never invented. The brief now takes the brand, domain, service, city and contact details from that sheet, so the user no longer types them into the prompt, and once the brief is agreed the AI drafts the short, profile and long descriptions for the sheet. Ask for the check by itself with "check my business details".
+
 ## 0.6.0, 16 November 2026
 
 - `build-site`: new industry research step, run before the brief. New `references/00-industry-research.md` has the AI read the websites of the local businesses on the user's prospect list and page one for the main keyword, then report the services and the words customers use, the guarantees that are normal, what reviews praise and complain about, whether prices are shown, the trust signals, the questions customers ask and the gap. It saves `industry-research.md`. The research is for understanding the trade: no wording, review, claim or price from another business goes on the user's site, and the AI says which sites and reviews it could not read. Ask for it by itself with "research my industry".

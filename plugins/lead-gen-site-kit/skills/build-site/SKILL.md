@@ -4,14 +4,14 @@ description: >
   This skill should be used when the user wants to "build a lead gen website",
   "start a new lead generation site", "build a site like the course example", "set up a
   multi-location service website", "plan the pages for my lead gen site", "write
-  the brief for my site", "research my industry", "research my competitors for
-  my lead gen site", "write the copy for my WordPress site", "page plan for
+  the brief for my site", "check my business details", "research my industry", "research my
+  competitors for my lead gen site", "write the copy for my WordPress site", "page plan for
   my lead gen site", or add a new city, suburb or service area to an existing
-  lead-gen site. It covers industry research, the
+  lead-gen site. It covers the business details, industry research, the
   brief, the stack, the data model, URL structure, conversion layout, copy,
   metadata, schema, AI search files, measurement and the launch checklist.
 metadata:
-  version: "0.4.0"
+  version: "0.4.1"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -38,11 +38,13 @@ If the user has already said which (for example "my site is built in WordPress")
 
 Work through these phases in order. Do not skip phase 1: most expensive mistakes on previous builds came from building before the business questions were answered.
 
-### Phase 1: research, then the brief
+### Phase 1: details, research, then the brief
 
-**Research first.** Read `references/00-industry-research.md` and research the trade before you ask the user anything about the site: the websites of the local businesses on their prospect list, and page one for the main keyword. Save `industry-research.md` in the project folder. If that file already exists and is recent, read it and skip to the brief. If the user asked only for the research, stop there.
+**Details first.** Read `references/00-business-details.md`. Find the user's details sheet in the project folder, check it, and ask for the gaps in one short list. A phone number that is "not yet" is an answer: carry a marked placeholder. If the user asked only to check their details, stop there.
 
-**Then draft the brief.** Read `references/01-brief.md`. Draft the whole brief yourself from the research, the keyword map and what the user has told you, then ask the user only for the decisions that are theirs, in one short list with your recommendation for each. Do not walk the user through every field one at a time: they cannot answer most of them from memory, and that is what the research is for.
+**Then research.** Read `references/00-industry-research.md` and research the trade before you ask the user anything about the site: the websites of the local businesses on their prospect list, and page one for the main keyword. Save `industry-research.md` in the project folder. If that file already exists and is recent, read it and skip to the brief. If the user asked only for the research, stop there.
+
+**Then draft the brief.** Read `references/01-brief.md`. Draft the whole brief yourself from the business details, the research, the keyword map and what the user has told you, then ask the user only for the decisions that are theirs, in one short list with your recommendation for each. Do not walk the user through every field one at a time: they cannot answer most of them from memory, and that is what the research is for.
 
 Never invent business facts (phone, address, review counts, licences, guarantees, years in business). Mark unknowns as `TODO` placeholders and list them back to the user at the end of the build.
 
@@ -97,6 +99,7 @@ Enforce these on every page and every commit. Restate them in the project's `CLA
 
 | File | Read it when |
 |---|---|
+| `references/00-business-details.md` | First, or when asked to check the business details |
 | `references/00-industry-research.md` | Before the brief, or when asked to research the industry or competitors |
 | `references/01-brief.md` | Starting any new site |
 | `references/02-architecture.md` | Scaffolding, routing, data model, deploy |
