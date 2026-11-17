@@ -56,10 +56,16 @@ The "Jobs we do around [location]" cards need one photo per job type, ideally on
 | Farm | cows or cattle filling the foreground, the shed and the job behind |
 | Building site | the worker and the job close up, frames and a site office behind |
 
+## Service and location photos
+
+- **One photo per service card,** showing the finished result of that service, so the services section reads at a glance.
+- **One hero photo per location page,** showing that page's true local angle (coast, river, slope, the age of the housing, a new estate). Geotag it to that place. Pages that share one hero photo look templated.
+
 ## Generating in practice
 
 - Generate at 4:3 (the Polaroid frame and the card both crop to about 4:3) and keep the subject centred.
-- Batch the set. Image services rate limit parallel jobs (on the image generation service used for a previous build, about eight at once), so send waves of eight and wait for each to finish.
+- Batch the set. Image services rate limit parallel jobs, so send waves of about four and wait for each to finish. On a previous build a wave of twelve had most jobs refused, while waves of four went through.
 - Review every image before it goes near the site. Put a wave on one contact sheet (a 4 by 2 grid of thumbnails with their numbers) and check each for: stray letters or logos, anything unpleasant, warped hands or faces, the wrong country's vehicles or buildings, and whether the scene actually belongs to its page. Regenerate anything that fails rather than settling.
 - Run the keepers through the pipeline (`scripts/optimize-image.mjs`): about 1000px wide for heroes and crew photos, 800 to 900px for cards. Geotag a generated scene to the town it depicts only when it is used on that town's page; otherwise use the country centre.
+- Hardware close-ups and patterned materials fail most often: hinges and latches that make no sense, perforated or mesh panels that come out as a strange overlay. Ask for the whole object, straight on, from a few metres back, with "correct straight geometry"; prefer the simplest style of the product; and generate two options for any close-up so you can pick one.
 - Record each image's prompt, filename, alt text and geotag in `docs/image-prompts.md`, and delete generated files the site no longer uses so they do not bloat the build.

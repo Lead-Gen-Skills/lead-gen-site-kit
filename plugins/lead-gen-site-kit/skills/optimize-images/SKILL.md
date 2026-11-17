@@ -10,7 +10,7 @@ description: >
   EXIF, geotag, keyword filename and alt text) and sets the style for generated
   placeholder photos.
 metadata:
-  version: "0.2.0"
+  version: "0.3.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -55,7 +55,7 @@ Country centre coordinates for national images: Australia `-25.2744, 133.7751`; 
 4. **Curated EXIF.** Keyword-rich description, brand as artist and copyright.
 5. **Geotagged** where it is genuinely true: the city the photo was taken in, or the country centre for brand images. Never geotag a photo to a city it was not taken in.
 6. **Keyword-rich, accurate alt text** set by hand on the `<img>`. Describe what is actually in the image, naturally including the target term. National term for home page images.
-7. **A real `<img>`, never a CSS background**, with intrinsic `width` and `height` so there is no layout shift. Above the fold: `loading="eager"` and `fetchPriority="high"`. Everything else lazy-loads.
+7. **A real `<img>`, never a CSS background**, with intrinsic `width` and `height` so there is no layout shift. Above the fold: `loading="eager"`. Everything else lazy-loads. Do not add a high fetch priority: on a coded build the framework can turn it into a preload, and link prefetching then downloads the hero photo of every page the visitor might click.
 
 ## Workflow when the user adds images
 
