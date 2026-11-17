@@ -13,7 +13,7 @@ Look in the project folder for the user's details sheet: a spreadsheet, CSV or d
 - **Main service and main city.**
 - **Website:** the production domain.
 - **Phone:** see "Not yet is an answer" below.
-- **Email:** ideally on the site's own domain.
+- **Email:** one address used for this site only. A free mail account made for the site (for example Gmail) is fine, and is what the Google account and Business Profile need later. An address on the site's own domain can come later.
 - **Opening hours:** the real hours the phone is answered or enquiries are handled.
 - **Service area:** the suburbs or regions really covered. On a lead network site this is the buyer's area; with no buyer yet, the areas the user plans to launch with.
 - **Descriptions:** short, profile length and long. Leave these blank at this step.
@@ -22,7 +22,7 @@ Who does the work, and whether a buyer is signed, are settled in the brief, not 
 
 ## Check, then ask once
 
-1. Read every field. List what is filled in, what is blank and anything that does not line up: a name that differs from the domain or from what the user said, a phone number in the wrong format for the country, an email on a free mail service, hours missing, a service area wider than a buyer could cover.
+1. Read every field. List what is filled in, what is blank and anything that does not line up: a name that differs from the domain or from what the user said, a phone number in the wrong format for the country, an email that is the user's personal address or is shared with another site, hours missing, a service area wider than a buyer could cover.
 2. Ask for the blanks and the fixes in one short list. Do not ask for anything the sheet or the user's request already answers.
 3. Write the answers back to the sheet if you can edit it, keeping its formulas and layout. If you cannot, give the user the exact values to type in. The value cell holds the value only. Anything that qualifies it ("lodged, not issued", "exact suburbs still to choose") goes in the notes column beside it.
 4. Report in a few lines: complete, or what is still open.

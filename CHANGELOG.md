@@ -2,6 +2,10 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.6.2, 17 November 2026
+
+- `build-site`: the business details check no longer treats a free mail address as a problem. A Gmail account made for the site is fine, as the course teaches. The check now asks only that the address is used for this one site and is not the user's personal address.
+
 ## 0.6.1, 17 November 2026
 
 - `build-site`: business details come first. New `references/00-business-details.md` has the AI find the user's details sheet in the project folder, check the name, phone, email, web address, hours and service area, point out anything blank or inconsistent, and ask for the gaps in one short list. A phone number that has not been bought yet is recorded as to confirm and carried as a marked placeholder, never invented. The brief now takes the brand, domain, service, city and contact details from that sheet, so the user no longer types them into the prompt, and once the brief is agreed the AI drafts the short, profile and long descriptions for the sheet. Ask for the check by itself with "check my business details".

@@ -11,7 +11,7 @@ description: >
   brief, the stack, the data model, URL structure, conversion layout, copy,
   metadata, schema, AI search files, measurement and the launch checklist.
 metadata:
-  version: "0.4.1"
+  version: "0.4.2"
   author: "Chris Dinham, Lead Gen course"
 ---
 
