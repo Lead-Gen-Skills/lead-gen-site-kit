@@ -2,6 +2,15 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.7.0, 17 November 2026
+
+- `build-site`: a new starting layout for a first version of a site, reviewed section by section on a previous build. The hero headline pairs the head term with the customer's biggest worry ("built to", never an unqualified promise), and the rating sits above the buttons. The trust bar has four ticks that each answer a customer worry. Services are the second section, one photo card each, three on the first row and two centred below. Reviews follow straight after "why book with us". Jobs, pricing and inclusions are optional sections, used only when the brief can fill them truthfully.
+- `build-site`: pricing on every page or on the pricing page only is now a brief decision. A promise is said once, not repeated across the site. Breadcrumbs stay in the structured data and for screen readers but are hidden on screen.
+- `build-site`: new About page order (intro, crew, why people trust us, reviews, how it works plainly, areas, contact, final call to action), and the contact page gets a map of the service area. Areas we cover is one simple A to Z list of suburbs. A suburb page recipe: the council, distance, one true local angle, the housing, one local FAQ and its own photo. The pilot stays at five or six suburb pages.
+- `build-site`: new `references/10-demo-mode.md` for a site that goes live before a buyer is signed, or is built to teach: a sample installer, a demo strip on every page, kept out of search, no rating markup, and never a real business's reviews as stand-ins.
+- `lead-form`: the price reveal is off unless the brief chooses it. New area check: ask for the postcode when the address is not needed to quote, with a friendly out-of-area message and the phone number.
+- `optimize-images`: no high fetch priority on hero images; one photo per service card and one hero photo per location page; send generation waves of about four; and how to get hardware close-ups and patterned materials right.
+
 ## 0.6.2, 17 November 2026
 
 - `build-site`: the business details check no longer treats a free mail address as a problem. A Gmail account made for the site is fine, as the course teaches. The check now asks only that the address is used for this one site and is not the user's personal address.
