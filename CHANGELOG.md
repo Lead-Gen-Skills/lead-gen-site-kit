@@ -2,6 +2,11 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.9.0, 18 November 2026
+
+- `local-seo`: five profile fields are now owner only. The AI never sets or changes the phone number, business name, category, service area or website on a Google Business Profile, even when it is driving the user's browser, because a change to those made by an AI is highly likely to end in a suspension. It gives the owner the exact value from the details sheet and waits. Everything else on the profile it may still fill in when asked.
+- `choose-niche`: keyword research now always fills the secondary categories as well as the primary one, from the top three profiles, and notes beside them to update them to match the services the lead buyer offers. There is no separate category check later.
+
 ## 0.8.0, 18 November 2026
 
 - `local-seo`: the profile guide now has Products (one for each main service), service descriptions capped at Google's 300 characters, a first post for each main service then weekly posts taking turns through the service and suburb pages, and points at the site's FAQ instead of the Q&A section Google is removing. The profile is filled by copying from the details sheet.

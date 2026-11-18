@@ -19,6 +19,20 @@ Relevance and prominence are the ones you can move. Set up relevance once, then 
 - **Is this the right listing?** If the profile was created for a previous business name, Google's rule is that a rebrand must keep the same proper nouns and services. A different business name generally means marking the old listing closed and creating a new one. Reviews stay attached to the listing that received them and do not move.
 - **Never move the verification address** to look closer to the city centre. It is a common suspension trigger.
 
+## Five fields only the owner changes
+
+When you are working inside the profile for the user, for example driving their browser, never set or change these five fields yourself, on a new profile or a live one:
+
+1. The phone number.
+2. The business name.
+3. The category, primary or secondary.
+4. The service area.
+5. The website.
+
+These are the fields Google watches most closely. A change to any of them made by an AI working in a browser is highly likely to end in a suspension. The owner types each one in by hand. Give them the exact value from the details sheet, tell them which field it goes in, and wait until they say it is done.
+
+Say this to the user before any profile work, once, so they do not ask you to do it "just this time". Everything else on the profile (description, services, products, attributes, opening date, photos, posts, review replies) you may fill in when the user asks, copying from the details sheet.
+
 ## Verification
 
 Postcards are now rare. Google usually asks for a video, recorded on a phone in one continuous take through the profile app. Prepare the owner for it:
@@ -36,15 +50,18 @@ Never use a bought profile, an invented unit number or a pre-recorded upload pas
 Everything the profile asks for should already sit in the details sheet: the basics on its Details tab, and the categories, links, services, products and first posts on its Google profile tab (see `build-site` `references/00-business-details.md`). Copy each value from there, character for character. If a field is blank, fill it in the sheet first, then copy it.
 
 - [ ] Verify the profile (see above).
-- [ ] Name exactly matches the master details block. No keywords or city added to the name.
-- [ ] Website set to the matching location page (or the home page; test which performs better).
-- [ ] **Primary category**: the single biggest relevance signal. Pick the closest category competitors in the top three use, checked on Maps for the head term.
-- [ ] Service area: only suburbs and regions genuinely serviced.
+The name, phone number, website, categories and service area are typed in by the owner, never by you (see "Five fields only the owner changes").
+
+- [ ] Name exactly matches the master details block. No keywords or city added to the name. Owner only.
+- [ ] Phone number exactly as in the details sheet. Owner only.
+- [ ] Website set to the matching location page (or the home page; test which performs better). Owner only.
+- [ ] **Primary category**: the single biggest relevance signal. It should already be in the details sheet from keyword research (see the `choose-niche` skill). If the row is blank, do that research now: open the top three profiles on Maps for the head term, note their categories and write the choice into the sheet. Owner only.
+- [ ] Service area: only suburbs and regions genuinely serviced. Owner only.
 - [ ] Hours, plus special hours for public holidays.
 
 ## Phase 1: complete every field
 
-- [ ] Secondary categories, only for services genuinely offered.
+- [ ] Secondary categories, from the details sheet. Before the owner types them in, check them against the services the lead buyer really offers, and take out any that do not apply. Owner only.
 - [ ] Description (up to 750 characters): what you do, where, the precise guarantee, the business model. No URLs, prices or calls to action in the description. It must match the site's claims and disclosure.
 - [ ] Services (aim for ten), each with a description of up to 300 characters, Google's limit, and a "from" price matching the site's pricing table.
 - [ ] Products: one for each main service, with a real photo, a short description and a button to its service page. Products show as cards near the top of the profile, so fill them even for a service business.

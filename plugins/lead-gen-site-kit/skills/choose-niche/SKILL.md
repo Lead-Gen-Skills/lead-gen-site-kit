@@ -9,7 +9,7 @@ description: >
   covers checking a shortlist of industries, checking demand with whatever keyword tool the user has, the keyword
   map and the lead price sum.
 metadata:
-  version: "0.4.0"
+  version: "0.4.1"
   author: "Chris Dinham, Lead Gen course"
 ---
 
