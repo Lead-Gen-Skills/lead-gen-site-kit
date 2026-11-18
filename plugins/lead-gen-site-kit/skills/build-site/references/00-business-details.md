@@ -18,7 +18,7 @@ Look in the project folder for the user's details sheet: a spreadsheet, CSV or d
 - **Service area:** the suburbs or regions really covered. On a lead network site this is the buyer's area; with no buyer yet, the areas the user plans to launch with.
 - **Descriptions:** short, profile length and long. Leave these blank at this step.
 
-Who does the work, and whether a buyer is signed, are settled in the brief, not here. Do not ask about them at this step. If the sheet has rows it marks for a later stage (for example profile categories or a verification address), leave them alone.
+Who does the work, and whether a buyer is signed, are settled in the brief, not here. Do not ask about them at this step. The profile categories are filled during keyword research (see the `choose-niche` skill); if they are blank, leave them for that step. Leave rows the sheet marks for a later stage (for example a verification address) alone.
 
 ## Check, then ask once
 
@@ -36,6 +36,16 @@ Who does the work, and whether a buyer is signed, are settled in the brief, not 
 ## Descriptions come after the brief
 
 Do not write the descriptions at this step: written before the research they are generic. Once the brief is agreed, draft a short description (one sentence), a profile description (750 characters or fewer, kept for the day a Google Business Profile is created) and a long description (two or three short paragraphs, 1,000 characters or fewer, for directory listings), using only facts in the brief and the business model wording from it. Leave out anything marked `TO CONFIRM`. Give each with its character count, and write them into the details sheet or hand them to the user to paste in.
+
+Then fill the details sheet's **Google profile** tab, so the profile can be copied in one sitting when the time comes. Use only facts in the brief; leave anything marked `TO CONFIRM` blank.
+
+- **Links:** the main location page and the quote form, each ending `?utm_source=gbp&utm_campaign=[location]`.
+- **Attributes:** the ones that are true, for example online estimates and onsite services.
+- **Services:** up to ten, matching the site's services, each with a plain description of 300 characters or fewer (Google's limit).
+- **Products:** one for each main service, with a description of 1,000 characters or fewer and its service page as the button link.
+- **First posts:** one for each main service, 1,500 characters or fewer, with its service page as the button link.
+
+Leave the opening date, special hours, logo and cover photo for the user. Give character counts and flag anything over its limit.
 
 ## From here on
 

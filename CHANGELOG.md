@@ -2,6 +2,13 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.8.0, 18 November 2026
+
+- `local-seo`: the profile guide now has Products (one for each main service), service descriptions capped at Google's 300 characters, a first post for each main service then weekly posts taking turns through the service and suburb pages, and points at the site's FAQ instead of the Q&A section Google is removing. The profile is filled by copying from the details sheet.
+- `local-seo`: the links guide now lists guest posts on quality sites, quality press releases, and brand authority and news links as worthwhile. What to avoid is now link networks and bulk packages (private blog networks, tier 2 packages, Google stacks), not buying a link as such.
+- `choose-niche`: keyword research now notes the primary category of the top three map pack profiles and writes the profile's primary and secondary categories into the details sheet.
+- `build-site`: once the brief is agreed, the AI also fills the details sheet's new Google profile tab: tagged website and quote links, attributes, up to ten services, a product and a first post for each main service, each within Google's character limits.
+
 ## 0.7.0, 17 November 2026
 
 - `build-site`: a new starting layout for a first version of a site, reviewed section by section on a previous build. The hero headline pairs the head term with the customer's biggest worry ("built to", never an unqualified promise), and the rating sits above the buttons. The trust bar has four ticks that each answer a customer worry. Services are the second section, one photo card each, three on the first row and two centred below. Reviews follow straight after "why book with us". Jobs, pricing and inclusions are optional sections, used only when the brief can fill them truthfully.

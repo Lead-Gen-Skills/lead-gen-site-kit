@@ -33,6 +33,8 @@ Never use a bought profile, an invented unit number or a pre-recorded upload pas
 
 ## Phase 0: foundations (one time)
 
+Everything the profile asks for should already sit in the details sheet: the basics on its Details tab, and the categories, links, services, products and first posts on its Google profile tab (see `build-site` `references/00-business-details.md`). Copy each value from there, character for character. If a field is blank, fill it in the sheet first, then copy it.
+
 - [ ] Verify the profile (see above).
 - [ ] Name exactly matches the master details block. No keywords or city added to the name.
 - [ ] Website set to the matching location page (or the home page; test which performs better).
@@ -44,7 +46,8 @@ Never use a bought profile, an invented unit number or a pre-recorded upload pas
 
 - [ ] Secondary categories, only for services genuinely offered.
 - [ ] Description (up to 750 characters): what you do, where, the precise guarantee, the business model. No URLs, prices or calls to action in the description. It must match the site's claims and disclosure.
-- [ ] Services, each with a short description and a "from" price matching the site's pricing table.
+- [ ] Services (aim for ten), each with a description of up to 300 characters, Google's limit, and a "from" price matching the site's pricing table.
+- [ ] Products: one for each main service, with a real photo, a short description and a button to its service page. Products show as cards near the top of the profile, so fill them even for a service business.
 - [ ] Attributes that apply (online estimates, onsite services, languages).
 - [ ] Opening date (the real one).
 - [ ] Booking or quote link pointing at the funnel with its own tracking, e.g. `?utm_source=gbp&utm_campaign=[location]`.
@@ -63,12 +66,13 @@ The biggest ongoing lever. See `reviews.md`.
 
 ## Phase 4: posts
 
-- [ ] Post weekly, rotating offers, tips and updates. Each with a real photo and a button to the funnel tagged `utm_source=gbp`.
+- [ ] Start with one post for each main service, each linking to its service page.
+- [ ] Then post weekly, taking turns through the service pages and suburb pages, with offers and tips in between. Each with a real photo and a button to that page tagged `utm_source=gbp`.
 - [ ] Example tip post: "The number one reason [common problem] happens is [cause]. Here is how we sort it." (with a before and after)
 
 ## Phase 5: questions and answers
 
-If the Q&A feature is available on the profile, answer the common questions from the business account. If it is not, make sure those answers live on the site's FAQ instead.
+Google is removing the Q&A section from profiles, so do not spend time writing questions there. Put the common questions and their answers on the site's FAQ instead.
 
 ## Ongoing
 

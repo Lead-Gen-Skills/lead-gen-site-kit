@@ -85,7 +85,7 @@ Each item is worth 1 point unless marked (2) or (3). Weighting reflects what mov
 - Bing Places and Apple Business Connect live.
 - Tier 1 citations live with identical details, tracked.
 - Social profiles live, branded, in `sameAs`.
-- Referring domains tracked monthly, growing from real relationships. No bought links.
+- Referring domains tracked monthly, growing from real sites and relationships. No link networks or bulk link packages.
 
 ## 9. Maintainability
 
