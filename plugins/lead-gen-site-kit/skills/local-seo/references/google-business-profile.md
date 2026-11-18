@@ -57,7 +57,7 @@ Everything the profile asks for should already sit in the details sheet: the bas
 
 - [ ] Square logo and landscape cover.
 - [ ] Before and after job photos (aim for 10 or more to start), team and vehicle photos.
-- [ ] Prepare each with the `optimize-images` skill: keyword filename, honest geotag.
+- [ ] Prepare each with the `optimize-images` skill: keyword filename, geotag.
 - [ ] Add a few new photos every week.
 
 ## Phase 3: reviews

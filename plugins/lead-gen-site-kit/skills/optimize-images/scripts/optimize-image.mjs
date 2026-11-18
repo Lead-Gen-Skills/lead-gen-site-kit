@@ -11,7 +11,7 @@
 //        - ImageDescription: keyword-rich, doubles as the record
 //          of the intended alt text.
 //        - Artist + Copyright: the brand.
-//        - GPS (optional): where the photo was genuinely taken,
+//        - GPS (optional): the area the photo is used for,
 //          or the country centre for brand images.
 //
 // Filenames are the other half of image SEO and are NOT handled

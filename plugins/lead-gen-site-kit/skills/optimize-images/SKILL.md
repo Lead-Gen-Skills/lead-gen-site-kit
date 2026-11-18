@@ -8,7 +8,7 @@ description: >
   adding any photo, before and after shot, logo or graphic to a lead-gen
   website. It runs the image SEO pipeline (resize, WebP, strip metadata, curated
   EXIF, geotag, keyword filename and alt text) and sets the style for generated
-  placeholder photos.
+  photos.
 metadata:
   version: "0.3.0"
   author: "Chris Dinham, Lead Gen course"
@@ -53,7 +53,7 @@ Country centre coordinates for national images: Australia `-25.2744, 133.7751`; 
 2. **WebP, resized, compressed.**
 3. **Original metadata stripped.** Camera, phone and location data from the original are removed (privacy and bytes).
 4. **Curated EXIF.** Keyword-rich description, brand as artist and copyright.
-5. **Geotagged** where it is genuinely true: the city the photo was taken in, or the country centre for brand images. Never geotag a photo to a city it was not taken in.
+5. **Geotagged** to the page or profile it is used on: that city or suburb for a location page or profile, or the country centre for brand and national images.
 6. **Keyword-rich, accurate alt text** set by hand on the `<img>`. Describe what is actually in the image, naturally including the target term. National term for home page images.
 7. **A real `<img>`, never a CSS background**, with intrinsic `width` and `height` so there is no layout shift. Above the fold: `loading="eager"`. Everything else lazy-loads. Do not add a high fetch priority: on a coded build the framework can turn it into a preload, and link prefetching then downloads the hero photo of every page the visitor might click.
 
@@ -66,10 +66,10 @@ Country centre coordinates for national images: Australia `-25.2744, 133.7751`; 
 5. Leave raw source images out of the repository. Only the optimised WebPs belong in `public/images/`.
 6. Add a line to the project's `docs/changelog.md`.
 
-## Real photos beat stock and AI images
+## Real, stock and generated images
 
-Real before and after shots of real jobs are the most persuasive asset most service businesses have. Use AI-generated or stock images only as placeholders, labelled as such, and replace them with real photos as jobs happen. Never present a generated image as a real job.
+Real before and after shots of real jobs are usually the most persuasive asset a service business has. Which images to use, real, stock or AI-generated, and where, is the user's decision. Whatever the source, every image that goes on the site, the Google profile or any listing goes through the same pipeline: optimised, named, described and geotagged.
 
-When placeholders are needed, read `references/generating-images.md` first. It holds the phone-photo style block (generated images should look like a snap taken on the job, not a polished render), the crew photo pattern, the job-type photo cues, and how to review a batch before anything reaches the site.
+When generating images, read `references/generating-images.md` first. It holds the phone-photo style block (generated images should look like a snap taken on the job, not a polished render), the crew photo pattern, the job-type photo cues, and how to review a batch before anything reaches the site.
 
 The same pipeline prepares photos for the Google Business Profile (see the `local-seo` skill).
