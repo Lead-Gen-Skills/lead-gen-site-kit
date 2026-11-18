@@ -2,6 +2,10 @@
 
 Newest first. Every release that attendees receive gets an entry.
 
+## 0.10.0, 18 November 2026
+
+- `local-seo`: go slow on a verified profile. When the AI updates a Google Business Profile in the user's browser it works in small batches over several days, never the whole profile in one day, and reports after each batch. The owner is told to be very wary of changing the phone number, service area, business name or website: one of those at a time, then nothing else on the profile that day.
+
 ## 0.9.0, 18 November 2026
 
 - `local-seo`: five profile fields are now owner only. The AI never sets or changes the phone number, business name, category, service area or website on a Google Business Profile, even when it is driving the user's browser, because a change to those made by an AI is highly likely to end in a suspension. It gives the owner the exact value from the details sheet and waits. Everything else on the profile it may still fill in when asked.

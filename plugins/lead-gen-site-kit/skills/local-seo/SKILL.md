@@ -11,7 +11,7 @@ description: >
   off-page plan that actually moves a new local site: the profile, reviews,
   citations, links, the month by month routine and what to avoid.
 metadata:
-  version: "0.4.0"
+  version: "0.5.0"
   author: "Chris Dinham, Lead Gen course"
 ---
 
@@ -21,7 +21,7 @@ On a brand new domain, **authority is the bottleneck, not on-page SEO.** A previ
 
 So after launch, the work shifts to these levers, in this order:
 
-1. **Google Business Profile** (only where there is a real presence). Read `references/google-business-profile.md`. Never change the profile's phone number, business name, category, service area or website yourself, even when you can drive the user's browser: the owner types those in by hand.
+1. **Google Business Profile** (only where there is a real presence). Read `references/google-business-profile.md`. Never change the profile's phone number, business name, category, service area or website yourself, even when you can drive the user's browser: the owner types those in by hand. On a verified profile, make your own changes in small batches over several days, never all in one day.
 2. **A review programme**, done legally. Read `references/reviews.md`.
 3. **Citations**, with identical details everywhere. Read `references/citations.md`.
 4. **Links from real local relationships** and two or three linkable pages. Read `references/links.md`.

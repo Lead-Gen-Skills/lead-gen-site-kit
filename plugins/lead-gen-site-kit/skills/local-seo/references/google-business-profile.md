@@ -29,9 +29,21 @@ When you are working inside the profile for the user, for example driving their 
 4. The service area.
 5. The website.
 
-These are the fields Google watches most closely. A change to any of them made by an AI working in a browser is highly likely to end in a suspension. The owner types each one in by hand. Give them the exact value from the details sheet, tell them which field it goes in, and wait until they say it is done.
+These are the fields Google watches most closely. A change to any of them made by an AI working in a browser can end in a suspension. The owner types each one in by hand. Give them the exact value from the details sheet, tell them which field it goes in, and wait until they say it is done.
 
 Say this to the user before any profile work, once, so they do not ask you to do it "just this time". Everything else on the profile (description, services, products, attributes, opening date, photos, posts, review replies) you may fill in when the user asks, copying from the details sheet.
+
+## Go slow on a verified profile
+
+Once a profile is verified, a burst of edits can trigger a review or a suspension. When you are making changes for the user in their browser:
+
+- Work in small batches spread over several days. Never update the whole profile in one day.
+- Plan the batches with the user before you start. For example: the description and attributes one day, the services the next, the products after that, then posts and photos.
+- After each batch, stop. Tell the user what you changed and what is left for another day.
+
+The owner's own changes need the same care. Changing the phone number, the service area, the business name or the website each carries a real chance of a suspension, so tell the owner to be very wary of all four and to change one at a time: make that one change, then leave the profile alone for the rest of the day. No other edits that day, from them or from you. The next change waits until the next day at the earliest.
+
+This applies from the day the profile is verified. During first setup, before verification, the owner enters the basics in one sitting as Google asks for them.
 
 ## Verification
 
